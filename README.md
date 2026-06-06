@@ -58,6 +58,17 @@ Built a Python/pandas cleaning pipeline that:
 
 ---
 
+## Freelance use cases
+
+I can adapt this project for:
+
+- cleaning client CSV/Excel files;
+- building automated data-quality reports;
+- creating Google Sheets / Excel dashboards;
+- building trading journal dashboards;
+- analyzing PnL, win rate, drawdown and strategy performance.
+
+
 ## Project structure
 
 ```text
@@ -73,14 +84,7 @@ python-data-cleaning-report/
     ├── cleaning_summary.csv
     ├── revenue_after_cleaning.png
     └── run_log.txt
-  ## Freelance use cases
 
-I can adapt this project for:
 
-- cleaning client CSV/Excel files;
-- building automated data-quality reports;
-- creating Google Sheets / Excel dashboards;
-- building trading journal dashboards;
-- analyzing PnL, win rate, drawdown and strategy performance.
-
+   
 
