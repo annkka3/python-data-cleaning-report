@@ -1,37 +1,78 @@
-# Python Data Cleaning & Quality Report
+## Python Data Cleaning & Quality Report
 
-    **Role:** Data Analyst / Python Analyst  
-    **Dataset:** Synthetic / anonymized demo data created for portfolio use.  
-    **Stack:** Python, pandas, matplotlib, CSV/Excel processing
+**Role:** Data Analyst / Python Analyst  
+**Dataset:** Synthetic / anonymized demo data created for portfolio use  
+**Stack:** Python, pandas, matplotlib, CSV/Excel processing
 
-    ## Business problem
+---
 
-    Raw customer order data contained duplicate rows, inconsistent date formats, text-based numeric values, mixed city names, missing emails, and inconsistent order statuses.
+## Business problem
 
-    ## What was built
+Raw customer order data contained duplicate rows, inconsistent date formats, text-based numeric values, mixed city names, missing emails, and inconsistent order statuses.
 
-    Built a reproducible Python/pandas cleaning pipeline that standardizes emails, phones, cities, dates, statuses and revenue fields; removes duplicates; exports clean data and a quality summary report.
+The goal of this project was to build a reproducible data-cleaning pipeline that converts messy operational data into a clean dataset, a quality summary report, and a simple revenue visualization.
 
-    ## Key outputs
+---
 
-    - `results/clean_customer_orders.csv` — cleaned dataset
+## What was built
+
+Built a Python/pandas cleaning pipeline that:
+
+- standardizes emails, phone numbers, city names, dates, order statuses and revenue fields;
+- removes duplicate rows;
+- validates and normalizes core fields;
+- exports a clean customer-order dataset;
+- generates a reusable data-quality summary;
+- creates a revenue visualization after cleaning.
+
+---
+
+## Key results
+
+| Metric | Result |
+|---|---:|
+| Raw rows | 945 |
+| Clean rows | 900 |
+| Duplicates removed | 45 |
+| Missing emails after cleaning | 28 |
+| Paid orders | 395 |
+| Total paid revenue | $46,912.19 |
+| Clean export generated | Yes |
+| Quality summary generated | Yes |
+| Revenue visualization generated | Yes |
+
+---
+
+## Key outputs
+
+- `results/clean_customer_orders.csv` — cleaned dataset
 - `results/cleaning_summary.csv` — data quality metrics
-- `results/revenue_after_cleaning.png` — visual trend after cleaning
+- `results/revenue_after_cleaning.png` — revenue visualization after cleaning
+- `results/run_log.txt` — pipeline execution summary
 
-    ## How to run
+---
 
-    ```bash
-    python -m venv .venv
-    source .venv/bin/activate  # Windows: .venv\Scripts\activate
-    pip install -r requirements.txt
-    python src/main.py
-    ```
+## Revenue after cleaning
 
-    ## Resume-ready bullets
+![Revenue after cleaning](results/revenue_after_cleaning.png)
 
-    - Automated cleaning of a messy customer-order dataset using Python/pandas: standardized dates, emails, phones, statuses and revenue fields.
-- Removed duplicates and generated a reusable data-quality report with clean CSV export and revenue visualization.
+---
 
+## Project structure
+
+```text
+python-data-cleaning-report/
+├── README.md
+├── requirements.txt
+├── data/
+│   └── raw_customer_orders.csv
+├── src/
+│   └── main.py
+└── results/
+    ├── clean_customer_orders.csv
+    ├── cleaning_summary.csv
+    ├── revenue_after_cleaning.png
+    └── run_log.txt
   ## Freelance use cases
 
 I can adapt this project for:
@@ -42,4 +83,4 @@ I can adapt this project for:
 - building trading journal dashboards;
 - analyzing PnL, win rate, drawdown and strategy performance.
 
-![Revenue after cleaning](results/revenue_after_cleaning.png)
+
