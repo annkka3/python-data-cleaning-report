@@ -1,0 +1,7 @@
+                   metric    value
+                 raw_rows   945.00
+               clean_rows   900.00
+       duplicates_removed    45.00
+missing_email_after_clean    28.00
+       total_revenue_paid 46912.19
+              paid_orders   395.00

@@ -1,0 +1,7 @@
+metric,value
+raw_rows,945.0
+clean_rows,900.0
+duplicates_removed,45.0
+missing_email_after_clean,28.0
+total_revenue_paid,46912.19
+paid_orders,395.0

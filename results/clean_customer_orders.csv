@@ -1,0 +1,901 @@
+order_id,customer_name,email,phone,city,order_date,product,status,amount,month
+1,John Smith,john.smith@gmail.com,70958682846,Berlin,2025-01-27,Dress,cancelled,144.84,2025-01
+2,Anna Ivanova,anna.ivanova@gmail.com,79589205528,Berlin,2025-01-07,Boots,paid,113.09,2025-01
+3,Maxim Orlov,maxim.orlov@mail.com,73460967357,Saint Petersburg,,T-shirt,paid,152.38,NaT
+4,John Smith,john.smith@example.com,77934927891,Berlin,,Dress,cancelled,196.15,NaT
+5,John Smith,john.smith@mail.com,3725556925,Saint Petersburg,2025-01-12,Dress,paid,108.29,2025-01
+6,John Smith,john.smith@example.com,555575435,Moscow,,Coat,cancelled,108.29,NaT
+7,Alex Brown,alex.brown @gmail.com,555497887,Tallinn,,Boots,pending,198.96,NaT
+8,John Smith,john.smith @gmail.com,555322955,Moscow,,Bag,cancelled,158.37,NaT
+9,Olga Sokolova,olga.sokolova@example.com,74284391408,Moscow,,Coat,paid,96.53,NaT
+10,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,74047709743,Saint Petersburg,2025-01-30,T-shirt,paid,147.13,2025-01
+11,Olga Sokolova,olga.sokolova@example.com,77385972235,Saint Petersburg,2025-02-15,Bag,paid,96.83,2025-02
+12,Kate Miller,kate.miller @gmail.com,73944899549,Tallinn,,Jeans,paid,96.71,NaT
+13,Anna Ivanova,anna.ivanova @gmail.com,3725552290,Riga,,Coat,pending,132.1,NaT
+14,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555891952,Riga,2025-04-13,Jacket,paid,24.34,2025-04
+15,Alex Brown,alex.brown @gmail.com,78680276057,Moscow,2025-02-28,Sneakers,paid,33.75,2025-02
+16,John Smith,john.smith@gmail.com,555174299,Unknown,,Jacket,paid,91.89,NaT
+17,Maxim Orlov,maxim.orlov@example.com,555198907,Moscow,,Dress,paid,69.36,NaT
+18,Ivan Kuznetsov,ivan.kuznetsov@mail.com,70822873088,Saint Petersburg,,Jacket,paid,135.71,NaT
+19,John Smith,john.smith@example.com,555153045,Tallinn,,Sneakers,paid,74.6,NaT
+20,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555378085,Berlin,2025-04-19,Jacket,paid,49.38,2025-04
+21,Alex Brown,alex.brown@mail.com,72328710672,Riga,,Coat,paid,193.28,NaT
+22,John Smith,john.smith @gmail.com,3725552122,Berlin,,Bag,paid,108.71,NaT
+23,John Smith,john.smith@example.com,3725559565,Saint Petersburg,2025-06-21,Boots,paid,123.38,2025-06
+24,Olga Sokolova,olga.sokolova@example.com,3725556180,Moscow,2025-04-28,Dress,cancelled,48.76,2025-04
+25,Alex Brown,alex.brown@mail.com,3725553170,Berlin,,Jeans,cancelled,92.78,NaT
+26,Anna Ivanova,anna.ivanova@mail.com,3725552697,Berlin,,Bag,pending,125.55,NaT
+27,Alex Brown,alex.brown@mail.com,70218179599,Tallinn,,Coat,pending,62.45,NaT
+28,Maria Petrova,maria.petrova@example.com,3725558007,Tallinn,,Coat,cancelled,138.78,NaT
+29,Maria Petrova,maria.petrova@gmail.com,555482364,Moscow,2025-02-23,T-shirt,cancelled,89.97,2025-02
+30,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555270395,Tallinn,,Boots,paid,105.42,NaT
+31,Olga Sokolova,olga.sokolova @gmail.com,555501124,Riga,,T-shirt,pending,89.91,NaT
+32,Alex Brown,alex.brown @gmail.com,555792094,Saint Petersburg,,T-shirt,cancelled,212.61,NaT
+33,Ivan Kuznetsov,ivan.kuznetsov@mail.com,71121910732,Tallinn,,T-shirt,pending,119.33,NaT
+34,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,3725557311,Berlin,,Bag,pending,67.11,NaT
+35,Ivan Kuznetsov,,3725556409,Tallinn,2025-03-18,T-shirt,cancelled,161.13,2025-03
+36,Olga Sokolova,,79337376324,Moscow,,Jeans,pending,58.96,NaT
+37,Alex Brown,alex.brown@example.com,76192423780,Moscow,2025-02-24,Dress,pending,130.44,2025-02
+38,Kate Miller,kate.miller@gmail.com,3725554848,Riga,,Dress,cancelled,22.02,NaT
+39,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,3725557291,Moscow,2025-06-17,Boots,paid,53.59,2025-06
+40,Maria Petrova,maria.petrova@example.com,555684482,Berlin,,T-shirt,cancelled,129.84,NaT
+41,Ivan Kuznetsov,ivan.kuznetsov@example.com,555879779,Saint Petersburg,,Jacket,paid,156.92,NaT
+42,Olga Sokolova,,555848206,Moscow,,Coat,paid,128.57,NaT
+43,Alex Brown,alex.brown@example.com,555840734,Tallinn,,Sneakers,paid,114.22,NaT
+44,Ivan Kuznetsov,ivan.kuznetsov@example.com,555998348,Tallinn,,Boots,cancelled,104.94,NaT
+45,Alex Brown,alex.brown@example.com,3725554595,Tallinn,,Coat,cancelled,46.07,NaT
+46,Maria Petrova,maria.petrova@gmail.com,70116402431,Moscow,,Sneakers,pending,84.01,NaT
+47,Ivan Kuznetsov,ivan.kuznetsov@mail.com,555576786,Moscow,,Jacket,paid,96.97,NaT
+48,Anna Ivanova,anna.ivanova@mail.com,3725554673,Riga,,Dress,paid,172.86,NaT
+49,Maxim Orlov,maxim.orlov@mail.com,3725557043,Saint Petersburg,,Boots,cancelled,137.18,NaT
+50,Alex Brown,alex.brown@gmail.com,73459716271,Tallinn,,Dress,cancelled,31.85,NaT
+51,Kate Miller,kate.miller@gmail.com,555962276,Riga,2025-04-03,Coat,cancelled,136.2,2025-04
+52,Maria Petrova,maria.petrova@mail.com,555912270,Saint Petersburg,,Dress,pending,100.75,NaT
+53,Maxim Orlov,maxim.orlov @gmail.com,3725558613,Saint Petersburg,,T-shirt,pending,86.15,NaT
+54,Kate Miller,kate.miller@mail.com,3725555526,Riga,,Bag,cancelled,150.58,NaT
+55,Maxim Orlov,maxim.orlov@example.com,555197573,Berlin,,T-shirt,cancelled,171.55,NaT
+56,Kate Miller,kate.miller@example.com,555468900,Saint Petersburg,,T-shirt,paid,166.56,NaT
+57,Maria Petrova,maria.petrova @gmail.com,76374584386,Moscow,2025-05-31,Bag,pending,78.04,2025-05
+58,Alex Brown,alex.brown@mail.com,78650701349,Moscow,,Jeans,paid,104.54,NaT
+59,Maxim Orlov,maxim.orlov@gmail.com,555701949,Moscow,,Jeans,cancelled,136.56,NaT
+60,John Smith,john.smith@gmail.com,78908115095,Berlin,,Jeans,paid,168.78,NaT
+61,Alex Brown,alex.brown@gmail.com,72656086594,Saint Petersburg,,Boots,pending,96.04,NaT
+62,Anna Ivanova,anna.ivanova@gmail.com,75201313620,Berlin,,Dress,paid,110.72,NaT
+63,Anna Ivanova,anna.ivanova@example.com,555822858,Saint Petersburg,,Jacket,paid,64.68,NaT
+64,Alex Brown,alex.brown@mail.com,3725554241,Moscow,,Dress,paid,60.19,NaT
+65,Maria Petrova,maria.petrova@mail.com,74829062179,Saint Petersburg,2025-03-19,Jacket,cancelled,160.63,2025-03
+66,John Smith,john.smith@gmail.com,555870214,Unknown,,Sneakers,pending,187.81,NaT
+67,Anna Ivanova,anna.ivanova @gmail.com,555644173,Riga,2025-02-16,Dress,cancelled,116.4,2025-02
+68,Kate Miller,kate.miller@example.com,3725556460,Saint Petersburg,,Boots,cancelled,170.18,NaT
+69,Anna Ivanova,anna.ivanova@example.com,3725552442,Unknown,2025-04-14,Jacket,cancelled,138.08,2025-04
+70,Anna Ivanova,anna.ivanova @gmail.com,555479353,Riga,,Jacket,paid,87.74,NaT
+71,Anna Ivanova,anna.ivanova @gmail.com,72365835550,Moscow,,Jacket,paid,138.07,NaT
+72,Maria Petrova,maria.petrova@example.com,555633590,Berlin,,Coat,cancelled,196.9,NaT
+73,Alex Brown,alex.brown @gmail.com,555389666,Saint Petersburg,,Jeans,cancelled,118.21,NaT
+74,Maria Petrova,maria.petrova@example.com,75777263354,Tallinn,,Bag,paid,198.23,NaT
+75,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555145767,Moscow,,Jacket,paid,15.0,NaT
+76,Maria Petrova,maria.petrova@mail.com,71891100776,Tallinn,,Coat,paid,161.1,NaT
+77,Maxim Orlov,maxim.orlov@mail.com,77270110908,Berlin,,Boots,pending,124.35,NaT
+78,Maxim Orlov,maxim.orlov@gmail.com,3725552121,Moscow,,Jacket,paid,105.05,NaT
+79,Olga Sokolova,olga.sokolova@gmail.com,555440131,Saint Petersburg,,Boots,paid,124.59,NaT
+80,Maria Petrova,maria.petrova @gmail.com,78035194895,Berlin,,Coat,paid,20.62,NaT
+81,Maxim Orlov,maxim.orlov@mail.com,555367729,Moscow,2025-03-15,Jacket,pending,109.02,2025-03
+82,Olga Sokolova,olga.sokolova@example.com,3725555097,Tallinn,,T-shirt,pending,137.86,NaT
+83,Olga Sokolova,olga.sokolova@gmail.com,78624715092,Saint Petersburg,2025-01-13,Bag,pending,193.89,2025-01
+84,Alex Brown,alex.brown @gmail.com,3725555106,Riga,2025-06-10,Sneakers,pending,94.09,2025-06
+85,Maria Petrova,maria.petrova@gmail.com,3725555835,Tallinn,,Jeans,paid,79.58,NaT
+86,Olga Sokolova,olga.sokolova@example.com,3725555835,Saint Petersburg,,Boots,cancelled,94.91,NaT
+87,Kate Miller,kate.miller@gmail.com,3725557464,Saint Petersburg,,Boots,pending,165.77,NaT
+88,John Smith,john.smith @gmail.com,72620283102,Saint Petersburg,2025-01-17,Boots,paid,136.44,2025-01
+89,Maria Petrova,maria.petrova@gmail.com,3725551609,Moscow,,Boots,cancelled,93.51,NaT
+90,Kate Miller,kate.miller@example.com,555535037,Saint Petersburg,,Sneakers,pending,145.66,NaT
+91,Alex Brown,alex.brown@example.com,3725558285,Tallinn,,Sneakers,cancelled,124.85,NaT
+92,Olga Sokolova,olga.sokolova @gmail.com,3725553001,Berlin,,Sneakers,paid,168.43,NaT
+93,Kate Miller,kate.miller @gmail.com,3725553063,Saint Petersburg,,T-shirt,paid,84.9,NaT
+94,Anna Ivanova,anna.ivanova@mail.com,3725553370,Moscow,2025-01-29,Sneakers,pending,103.62,2025-01
+95,Alex Brown,,3725551258,Moscow,2025-04-18,Jacket,cancelled,100.39,2025-04
+96,Kate Miller,kate.miller@gmail.com,72641863774,Moscow,2025-06-18,Sneakers,cancelled,46.82,2025-06
+97,Ivan Kuznetsov,ivan.kuznetsov@example.com,3725552768,Moscow,2025-03-24,Jeans,cancelled,134.81,2025-03
+98,Kate Miller,kate.miller@example.com,3725559692,Berlin,,Bag,cancelled,133.05,NaT
+99,Maxim Orlov,maxim.orlov @gmail.com,555455395,Tallinn,2025-04-17,T-shirt,pending,120.26,2025-04
+100,Kate Miller,kate.miller @gmail.com,555170394,Moscow,2025-01-25,Sneakers,cancelled,108.27,2025-01
+101,Kate Miller,kate.miller@gmail.com,555470774,Saint Petersburg,,Coat,cancelled,49.23,NaT
+102,Alex Brown,alex.brown@gmail.com,3725556736,Tallinn,2025-03-13,Sneakers,pending,98.97,2025-03
+103,Anna Ivanova,anna.ivanova @gmail.com,555836833,Moscow,,Boots,paid,102.86,NaT
+104,Maria Petrova,maria.petrova@gmail.com,555882354,Tallinn,,Jeans,pending,79.89,NaT
+105,John Smith,,3725553549,Riga,,Jacket,cancelled,111.94,NaT
+106,Olga Sokolova,olga.sokolova @gmail.com,3725559394,Riga,2025-03-14,Jeans,paid,140.2,2025-03
+107,Alex Brown,alex.brown@example.com,3725551897,Moscow,,Sneakers,cancelled,214.31,NaT
+108,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,79578252582,Moscow,,Boots,paid,128.73,NaT
+109,Maxim Orlov,maxim.orlov@gmail.com,555703727,Tallinn,,Coat,cancelled,132.88,NaT
+110,Kate Miller,kate.miller@gmail.com,555985506,Tallinn,,Jeans,pending,116.28,NaT
+111,Alex Brown,alex.brown@mail.com,79079675280,Moscow,,Bag,paid,24.06,NaT
+112,Maria Petrova,maria.petrova@mail.com,72587283948,Riga,,Jacket,cancelled,118.67,NaT
+113,Kate Miller,kate.miller@mail.com,555561124,Berlin,,Sneakers,pending,123.01,NaT
+114,John Smith,john.smith@mail.com,555573866,Moscow,,Boots,cancelled,243.16,NaT
+115,Anna Ivanova,anna.ivanova@example.com,76893447569,Tallinn,,Dress,cancelled,110.38,NaT
+116,Maria Petrova,maria.petrova@gmail.com,555841995,Tallinn,,Sneakers,pending,135.08,NaT
+117,John Smith,john.smith@mail.com,555685066,Berlin,2025-03-06,Coat,pending,118.26,2025-03
+118,John Smith,john.smith @gmail.com,71683446724,Tallinn,,Coat,cancelled,61.57,NaT
+119,John Smith,john.smith@example.com,555479404,Riga,,Bag,paid,177.14,NaT
+120,Maria Petrova,maria.petrova @gmail.com,79024330858,Berlin,,Coat,cancelled,157.6,NaT
+121,Maria Petrova,maria.petrova @gmail.com,73876877928,Saint Petersburg,,Jacket,pending,159.55,NaT
+122,Maxim Orlov,maxim.orlov @gmail.com,555350786,Riga,2025-06-23,Jeans,cancelled,74.53,2025-06
+123,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555940181,Tallinn,2025-01-14,Dress,cancelled,190.14,2025-01
+124,John Smith,john.smith@mail.com,555900185,Moscow,,Bag,cancelled,49.91,NaT
+125,Kate Miller,kate.miller@gmail.com,555155843,Tallinn,,Dress,pending,149.34,NaT
+126,Maria Petrova,maria.petrova @gmail.com,73569592370,Moscow,,Sneakers,pending,229.52,NaT
+127,Alex Brown,alex.brown @gmail.com,555862560,Saint Petersburg,,Boots,cancelled,70.47,NaT
+128,John Smith,john.smith@gmail.com,72302333490,Moscow,2025-05-12,Jeans,cancelled,91.69,2025-05
+129,Anna Ivanova,anna.ivanova@mail.com,71789144223,Tallinn,,Dress,cancelled,124.98,NaT
+130,Anna Ivanova,anna.ivanova@example.com,555145649,Moscow,2025-03-06,T-shirt,paid,94.83,2025-03
+131,John Smith,john.smith@mail.com,72760786161,Moscow,2025-04-29,Coat,paid,42.47,2025-04
+132,Maxim Orlov,maxim.orlov@gmail.com,555311383,Berlin,,Jacket,pending,123.43,NaT
+133,Anna Ivanova,anna.ivanova @gmail.com,555474314,Tallinn,,Jacket,cancelled,66.88,NaT
+134,Kate Miller,kate.miller @gmail.com,76431813987,Moscow,,Boots,paid,143.68,NaT
+135,Olga Sokolova,olga.sokolova@mail.com,555183958,Tallinn,,Coat,cancelled,74.03,NaT
+136,Kate Miller,kate.miller@example.com,555862120,Tallinn,,T-shirt,cancelled,197.5,NaT
+137,Maria Petrova,maria.petrova@gmail.com,3725553339,Tallinn,,T-shirt,cancelled,80.84,NaT
+138,Anna Ivanova,anna.ivanova @gmail.com,3725558371,Tallinn,,T-shirt,pending,103.9,NaT
+139,Alex Brown,alex.brown@gmail.com,75094037570,Saint Petersburg,2025-04-10,Jacket,paid,160.68,2025-04
+140,Olga Sokolova,olga.sokolova@example.com,3725554279,Tallinn,,T-shirt,paid,58.46,NaT
+141,Olga Sokolova,olga.sokolova@mail.com,3725553580,Moscow,,T-shirt,cancelled,131.37,NaT
+142,Kate Miller,kate.miller@example.com,3725553126,Riga,,Boots,cancelled,185.36,NaT
+143,John Smith,john.smith @gmail.com,555773540,Berlin,2025-06-24,Coat,paid,39.63,2025-06
+144,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,3725553034,Unknown,,T-shirt,cancelled,129.23,NaT
+145,Olga Sokolova,olga.sokolova@gmail.com,3725555105,Moscow,,Coat,paid,132.99,NaT
+146,Maria Petrova,maria.petrova@mail.com,3725551674,Saint Petersburg,2025-01-12,Bag,cancelled,159.09,2025-01
+147,Anna Ivanova,anna.ivanova@example.com,3725559938,Moscow,,Sneakers,paid,58.15,NaT
+148,Maxim Orlov,maxim.orlov@example.com,75171239466,Tallinn,,T-shirt,cancelled,53.98,NaT
+149,Maria Petrova,maria.petrova@mail.com,3725559437,Saint Petersburg,,Coat,paid,146.1,NaT
+150,Anna Ivanova,anna.ivanova@mail.com,3725557293,Saint Petersburg,2025-03-25,Coat,cancelled,134.85,2025-03
+151,Maxim Orlov,maxim.orlov@example.com,555621530,Saint Petersburg,,T-shirt,paid,132.52,NaT
+152,Anna Ivanova,anna.ivanova@mail.com,76316122432,Saint Petersburg,,T-shirt,cancelled,137.32,NaT
+153,Kate Miller,kate.miller@gmail.com,75131005449,Riga,,Jeans,paid,86.0,NaT
+154,Maria Petrova,maria.petrova@gmail.com,3725557453,Berlin,2025-02-20,Sneakers,paid,131.61,2025-02
+155,Anna Ivanova,,71962750929,Berlin,,T-shirt,paid,134.65,NaT
+156,Ivan Kuznetsov,ivan.kuznetsov@mail.com,76581349462,Moscow,,T-shirt,pending,84.28,NaT
+157,John Smith,john.smith@example.com,72702653209,Berlin,,Bag,paid,213.29,NaT
+158,Maxim Orlov,maxim.orlov @gmail.com,71632905061,Moscow,,Bag,paid,143.69,NaT
+159,Maxim Orlov,maxim.orlov@mail.com,75170675398,Moscow,,Coat,cancelled,60.43,NaT
+160,Alex Brown,alex.brown@mail.com,3725558837,Tallinn,2025-04-28,Jeans,cancelled,152.83,2025-04
+161,Alex Brown,alex.brown @gmail.com,555685196,Riga,2025-03-15,T-shirt,cancelled,71.27,2025-03
+162,Kate Miller,kate.miller@mail.com,555227794,Saint Petersburg,,Dress,pending,159.35,NaT
+163,Maxim Orlov,maxim.orlov@mail.com,76608141858,Berlin,,Bag,paid,177.93,NaT
+164,Anna Ivanova,anna.ivanova @gmail.com,555155040,Moscow,,Sneakers,cancelled,78.97,NaT
+165,Maria Petrova,maria.petrova@example.com,555600641,Unknown,,Bag,cancelled,168.17,NaT
+166,Anna Ivanova,anna.ivanova @gmail.com,555978292,Saint Petersburg,,Sneakers,paid,140.64,NaT
+167,Olga Sokolova,olga.sokolova@gmail.com,3725556489,Moscow,,T-shirt,paid,161.1,NaT
+168,Maxim Orlov,maxim.orlov@mail.com,555114768,Moscow,2025-05-26,Boots,cancelled,214.84,2025-05
+169,Kate Miller,kate.miller@gmail.com,3725557567,Moscow,,Jeans,cancelled,107.73,NaT
+170,Alex Brown,alex.brown@example.com,79886782080,Tallinn,,Bag,paid,82.31,NaT
+171,John Smith,john.smith@example.com,3725556026,Saint Petersburg,,Bag,paid,75.52,NaT
+172,Maxim Orlov,maxim.orlov @gmail.com,75899673770,Saint Petersburg,,Bag,paid,79.21,NaT
+173,Maxim Orlov,maxim.orlov@mail.com,70481933114,Moscow,,Coat,pending,116.14,NaT
+174,Maxim Orlov,maxim.orlov@gmail.com,3725554365,Riga,,Coat,cancelled,137.06,NaT
+175,Ivan Kuznetsov,ivan.kuznetsov@example.com,77760642358,Moscow,,Bag,paid,133.83,NaT
+176,Anna Ivanova,anna.ivanova@example.com,3725556644,Tallinn,,Coat,paid,161.36,NaT
+177,Ivan Kuznetsov,ivan.kuznetsov@mail.com,555570325,Berlin,2025-01-21,Coat,pending,120.65,2025-01
+178,John Smith,john.smith @gmail.com,72271361431,Saint Petersburg,,Jacket,cancelled,192.68,NaT
+179,Ivan Kuznetsov,ivan.kuznetsov@example.com,3725554762,Moscow,,Sneakers,cancelled,106.77,NaT
+180,Anna Ivanova,anna.ivanova @gmail.com,3725554376,Moscow,2025-04-25,Bag,paid,256.01,2025-04
+181,Ivan Kuznetsov,,70242425303,Berlin,,T-shirt,pending,151.28,NaT
+182,Alex Brown,alex.brown@mail.com,555792282,Berlin,,Coat,cancelled,77.14,NaT
+183,Maxim Orlov,maxim.orlov@gmail.com,77178361487,Moscow,2025-03-23,Jeans,cancelled,66.46,2025-03
+184,Maria Petrova,maria.petrova@example.com,75262814762,Berlin,,Boots,cancelled,144.12,NaT
+185,Maria Petrova,maria.petrova@example.com,75168291913,Moscow,,Bag,paid,108.83,NaT
+186,Olga Sokolova,olga.sokolova@example.com,555176319,Moscow,,Bag,paid,155.7,NaT
+187,John Smith,john.smith@example.com,3725554974,Tallinn,,Jacket,cancelled,143.66,NaT
+188,Kate Miller,kate.miller@mail.com,3725555285,Tallinn,,T-shirt,cancelled,116.36,NaT
+189,Anna Ivanova,anna.ivanova @gmail.com,79709950871,Moscow,2025-05-29,Bag,pending,77.66,2025-05
+190,Alex Brown,alex.brown@example.com,555623555,Moscow,2025-06-14,T-shirt,paid,44.26,2025-06
+191,Maria Petrova,maria.petrova@example.com,74111301175,Moscow,,Sneakers,cancelled,97.67,NaT
+192,Maria Petrova,maria.petrova @gmail.com,3725552113,Berlin,,Jacket,cancelled,162.82,NaT
+193,Anna Ivanova,anna.ivanova@gmail.com,3725559719,Saint Petersburg,2025-05-16,Sneakers,cancelled,130.7,2025-05
+194,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,3725552753,Unknown,2025-02-19,Jeans,cancelled,57.71,2025-02
+195,John Smith,john.smith@mail.com,72426665919,Moscow,,Sneakers,paid,128.66,NaT
+196,Ivan Kuznetsov,ivan.kuznetsov@example.com,72044426338,Riga,2025-01-03,Boots,pending,139.27,2025-01
+197,John Smith,john.smith@gmail.com,555321686,Saint Petersburg,,Sneakers,paid,75.81,NaT
+198,Kate Miller,kate.miller@gmail.com,3725554394,Berlin,,Boots,cancelled,127.69,NaT
+199,Kate Miller,kate.miller@example.com,73110258855,Saint Petersburg,,Dress,pending,122.91,NaT
+200,Ivan Kuznetsov,ivan.kuznetsov@mail.com,555764926,Unknown,,Boots,paid,62.85,NaT
+201,Ivan Kuznetsov,,3725555839,Unknown,,Boots,pending,137.89,NaT
+202,Kate Miller,kate.miller@gmail.com,555105447,Moscow,,Coat,cancelled,148.04,NaT
+203,Maxim Orlov,maxim.orlov@example.com,74679877282,Tallinn,2025-01-24,Boots,paid,174.15,2025-01
+204,Olga Sokolova,olga.sokolova@example.com,78953716239,Tallinn,2025-03-04,Coat,paid,172.69,2025-03
+205,Olga Sokolova,olga.sokolova@mail.com,3725555397,Riga,,Dress,pending,51.12,NaT
+206,Olga Sokolova,olga.sokolova @gmail.com,555722651,Tallinn,,T-shirt,cancelled,73.11,NaT
+207,Kate Miller,kate.miller@example.com,555551533,Tallinn,2025-06-04,Coat,cancelled,145.75,2025-06
+208,Kate Miller,kate.miller@mail.com,555703853,Tallinn,,T-shirt,paid,145.69,NaT
+209,Alex Brown,alex.brown @gmail.com,555862538,Tallinn,2025-03-16,Jacket,paid,145.75,2025-03
+210,Olga Sokolova,olga.sokolova @gmail.com,555790658,Berlin,,Jacket,cancelled,312.64,NaT
+211,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,3725556890,Berlin,2025-06-18,Sneakers,cancelled,148.54,2025-06
+212,Kate Miller,kate.miller@example.com,3725552735,Berlin,2025-05-11,Bag,cancelled,176.78,2025-05
+213,Kate Miller,kate.miller@example.com,3725558586,Moscow,,Dress,paid,167.7,NaT
+214,Kate Miller,kate.miller@mail.com,73368413994,Riga,,Jacket,pending,152.57,NaT
+215,John Smith,john.smith@mail.com,3725551732,Moscow,2025-03-29,Bag,cancelled,104.24,2025-03
+216,Maria Petrova,maria.petrova @gmail.com,555687044,Tallinn,,Boots,paid,157.95,NaT
+217,Alex Brown,alex.brown@example.com,3725558037,Moscow,,Dress,cancelled,81.36,NaT
+218,Maria Petrova,maria.petrova@mail.com,555306647,Tallinn,,Boots,cancelled,108.16,NaT
+219,John Smith,john.smith@mail.com,77733575600,Tallinn,,Dress,paid,95.73,NaT
+220,Olga Sokolova,olga.sokolova@gmail.com,72978287288,Berlin,,Boots,cancelled,124.09,NaT
+221,Maria Petrova,maria.petrova@example.com,3725559804,Tallinn,,Jacket,paid,235.73,NaT
+222,Kate Miller,kate.miller@gmail.com,555243167,Riga,,Jacket,paid,26.64,NaT
+223,John Smith,john.smith@gmail.com,3725554613,Riga,,Jacket,cancelled,154.31,NaT
+224,John Smith,john.smith@gmail.com,78550822977,Saint Petersburg,2025-01-11,Boots,paid,39.36,2025-01
+225,Alex Brown,alex.brown@mail.com,3725551528,Saint Petersburg,,Bag,pending,96.4,NaT
+226,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555922974,Moscow,,T-shirt,pending,174.45,NaT
+227,Olga Sokolova,olga.sokolova@mail.com,3725559428,Moscow,,Coat,paid,123.21,NaT
+228,Maria Petrova,maria.petrova@mail.com,3725555055,Tallinn,2025-05-28,Boots,cancelled,66.11,2025-05
+229,John Smith,john.smith@gmail.com,77515344013,Tallinn,,Sneakers,paid,84.23,NaT
+230,Maxim Orlov,maxim.orlov@mail.com,3725552037,Tallinn,,Jeans,pending,153.98,NaT
+231,Maria Petrova,maria.petrova@example.com,3725556631,Riga,2025-01-26,Sneakers,paid,83.48,2025-01
+232,Maria Petrova,maria.petrova@example.com,71837384013,Saint Petersburg,2025-02-03,Dress,pending,130.82,2025-02
+233,Olga Sokolova,olga.sokolova@gmail.com,555796787,Unknown,,Boots,paid,122.28,NaT
+234,John Smith,john.smith@gmail.com,70334744286,Moscow,2025-02-27,Sneakers,pending,87.42,2025-02
+235,John Smith,john.smith@example.com,555600905,Moscow,2025-01-23,T-shirt,pending,227.2,2025-01
+236,Olga Sokolova,olga.sokolova @gmail.com,73755937285,Berlin,,Sneakers,paid,151.7,NaT
+237,Maxim Orlov,maxim.orlov@mail.com,555758589,Saint Petersburg,2025-06-07,Dress,paid,18.74,2025-06
+238,Maria Petrova,maria.petrova@gmail.com,555468611,Moscow,,Bag,cancelled,129.32,NaT
+239,Olga Sokolova,olga.sokolova@gmail.com,72188382776,Saint Petersburg,,Jacket,cancelled,86.91,NaT
+240,John Smith,john.smith @gmail.com,72550908958,Moscow,,Boots,cancelled,162.62,NaT
+241,Kate Miller,kate.miller @gmail.com,70313497572,Moscow,,Sneakers,cancelled,80.37,NaT
+242,Olga Sokolova,olga.sokolova@example.com,71727768349,Saint Petersburg,2025-05-18,Dress,pending,114.26,2025-05
+243,John Smith,john.smith @gmail.com,75698349136,Moscow,2025-06-12,Jeans,cancelled,145.25,2025-06
+244,Alex Brown,alex.brown@gmail.com,3725555005,Saint Petersburg,2025-04-27,Coat,paid,163.29,2025-04
+245,Anna Ivanova,anna.ivanova @gmail.com,555271790,Saint Petersburg,2025-02-02,Dress,paid,59.99,2025-02
+246,Kate Miller,kate.miller@example.com,74569295400,Riga,2025-05-28,T-shirt,paid,103.27,2025-05
+247,Maxim Orlov,maxim.orlov @gmail.com,3725557024,Moscow,,Bag,paid,96.25,NaT
+248,Maxim Orlov,maxim.orlov@mail.com,78741819989,Saint Petersburg,,Boots,pending,87.33,NaT
+249,Olga Sokolova,olga.sokolova@gmail.com,3725557108,Tallinn,2025-02-27,Dress,cancelled,208.27,2025-02
+250,Olga Sokolova,olga.sokolova@mail.com,3725556362,Saint Petersburg,,Bag,cancelled,140.25,NaT
+251,Kate Miller,kate.miller@example.com,3725554201,Tallinn,,Sneakers,pending,56.96,NaT
+252,Anna Ivanova,anna.ivanova@example.com,3725556038,Moscow,,Jeans,paid,165.89,NaT
+253,Anna Ivanova,anna.ivanova @gmail.com,75894808149,Moscow,2025-01-22,Boots,paid,226.11,2025-01
+254,Anna Ivanova,anna.ivanova@example.com,555348273,Tallinn,2025-04-11,T-shirt,cancelled,171.62,2025-04
+255,Olga Sokolova,olga.sokolova @gmail.com,3725552223,Tallinn,,Dress,cancelled,44.03,NaT
+256,Kate Miller,kate.miller @gmail.com,3725558404,Saint Petersburg,,Sneakers,paid,95.79,NaT
+257,Kate Miller,kate.miller @gmail.com,75822870815,Moscow,2025-01-13,Sneakers,cancelled,183.35,2025-01
+258,Maxim Orlov,maxim.orlov @gmail.com,3725552551,Saint Petersburg,,Coat,paid,84.62,NaT
+259,Ivan Kuznetsov,ivan.kuznetsov@mail.com,3725552376,Riga,,Coat,paid,142.19,NaT
+260,Kate Miller,kate.miller@gmail.com,70217487269,Moscow,2025-04-21,Boots,cancelled,158.73,2025-04
+261,Maria Petrova,maria.petrova@mail.com,555296242,Berlin,,Bag,pending,73.65,NaT
+262,Maxim Orlov,maxim.orlov@example.com,555163941,Berlin,,Bag,cancelled,117.02,NaT
+263,Anna Ivanova,,76376649850,Moscow,,Sneakers,pending,15.0,NaT
+264,Alex Brown,alex.brown@gmail.com,3725555602,Moscow,,Bag,cancelled,68.78,NaT
+265,Kate Miller,kate.miller @gmail.com,76839819230,Moscow,,T-shirt,paid,107.37,NaT
+266,Alex Brown,,3725559882,Saint Petersburg,,Sneakers,cancelled,57.61,NaT
+267,Maxim Orlov,maxim.orlov@gmail.com,74855415646,Moscow,,Coat,paid,201.62,NaT
+268,Kate Miller,kate.miller@gmail.com,555838761,Tallinn,,Jacket,pending,48.49,NaT
+269,Maria Petrova,maria.petrova@mail.com,555797860,Moscow,,Boots,paid,98.0,NaT
+270,Maria Petrova,maria.petrova@mail.com,555770718,Saint Petersburg,,T-shirt,pending,126.54,NaT
+271,Maria Petrova,maria.petrova@gmail.com,3725556500,Saint Petersburg,2025-03-05,Dress,paid,192.06,2025-03
+272,Anna Ivanova,anna.ivanova@example.com,555868170,Riga,2025-03-31,Bag,paid,48.21,2025-03
+273,Maxim Orlov,maxim.orlov@gmail.com,555409234,Tallinn,,Coat,paid,178.16,NaT
+274,John Smith,john.smith@mail.com,74428082088,Moscow,2025-02-12,Sneakers,paid,120.51,2025-02
+275,Kate Miller,kate.miller @gmail.com,555529161,Tallinn,,Jacket,paid,70.92,NaT
+276,Anna Ivanova,anna.ivanova@mail.com,74671328227,Moscow,2025-06-10,Sneakers,paid,143.11,2025-06
+277,Maria Petrova,maria.petrova@mail.com,555596574,Saint Petersburg,,Dress,cancelled,129.95,NaT
+278,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555499974,Saint Petersburg,,Bag,pending,89.99,NaT
+279,Anna Ivanova,anna.ivanova @gmail.com,77164611781,Moscow,2025-04-16,Boots,cancelled,123.49,2025-04
+280,Ivan Kuznetsov,ivan.kuznetsov@example.com,555599397,Berlin,2025-01-09,Coat,paid,100.73,2025-01
+281,Maxim Orlov,maxim.orlov @gmail.com,3725553738,Tallinn,,Bag,paid,125.68,NaT
+282,Olga Sokolova,olga.sokolova@mail.com,555191254,Berlin,2025-01-04,Boots,paid,153.11,2025-01
+283,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,3725553428,Berlin,,T-shirt,cancelled,199.3,NaT
+284,Olga Sokolova,olga.sokolova@example.com,3725558955,Berlin,,Boots,paid,58.11,NaT
+285,Ivan Kuznetsov,ivan.kuznetsov@mail.com,555151685,Saint Petersburg,,Jeans,pending,226.65,NaT
+286,Maxim Orlov,maxim.orlov@gmail.com,555240913,Moscow,2025-03-10,Bag,cancelled,22.4,2025-03
+287,Alex Brown,alex.brown@example.com,3725558937,Tallinn,,Coat,cancelled,112.41,NaT
+288,Anna Ivanova,anna.ivanova @gmail.com,3725554158,Saint Petersburg,,Jeans,pending,149.42,NaT
+289,Maxim Orlov,maxim.orlov@example.com,555814263,Riga,2025-05-06,T-shirt,pending,134.05,2025-05
+290,Maria Petrova,maria.petrova@mail.com,3725552480,Saint Petersburg,2025-02-11,Bag,paid,88.87,2025-02
+291,Alex Brown,alex.brown@mail.com,3725557709,Moscow,,Bag,pending,109.59,NaT
+292,Olga Sokolova,olga.sokolova@mail.com,555494763,Berlin,,Boots,paid,95.35,NaT
+293,Anna Ivanova,anna.ivanova@mail.com,555412974,Tallinn,,Jeans,pending,90.53,NaT
+294,Olga Sokolova,olga.sokolova @gmail.com,3725553456,Moscow,,Sneakers,cancelled,162.48,NaT
+295,Olga Sokolova,olga.sokolova@mail.com,78741628563,Saint Petersburg,,Jacket,pending,137.85,NaT
+296,Olga Sokolova,olga.sokolova @gmail.com,3725553967,Moscow,2025-03-08,T-shirt,paid,85.35,2025-03
+297,Alex Brown,alex.brown@mail.com,555880360,Saint Petersburg,,Jacket,paid,164.98,NaT
+298,Maxim Orlov,maxim.orlov@gmail.com,73820055862,Saint Petersburg,2025-01-31,Boots,paid,135.36,2025-01
+299,Maria Petrova,,555459315,Moscow,,T-shirt,paid,160.64,NaT
+300,Anna Ivanova,anna.ivanova@example.com,3725555481,Tallinn,,Boots,cancelled,151.48,NaT
+301,Ivan Kuznetsov,ivan.kuznetsov@example.com,3725557280,Berlin,,Bag,paid,78.55,NaT
+302,Anna Ivanova,anna.ivanova @gmail.com,555827213,Berlin,,Jeans,paid,91.99,NaT
+303,John Smith,john.smith@gmail.com,555404955,Riga,,T-shirt,paid,157.36,NaT
+304,Maria Petrova,maria.petrova@example.com,3725551313,Berlin,2025-02-24,Coat,paid,150.52,2025-02
+305,Kate Miller,kate.miller@gmail.com,3725557147,Moscow,,Sneakers,paid,118.95,NaT
+306,Ivan Kuznetsov,ivan.kuznetsov@example.com,555229598,Moscow,,Jeans,cancelled,125.87,NaT
+307,John Smith,john.smith@mail.com,79040537807,Moscow,,Jacket,paid,183.88,NaT
+308,Alex Brown,alex.brown@mail.com,3725559571,Saint Petersburg,2025-01-11,Jacket,pending,90.42,2025-01
+309,Alex Brown,alex.brown@gmail.com,3725551208,Moscow,,Jeans,paid,147.35,NaT
+310,Maxim Orlov,maxim.orlov@mail.com,3725555327,Tallinn,,Boots,paid,109.89,NaT
+311,John Smith,john.smith@gmail.com,79184334198,Riga,,Jeans,paid,109.12,NaT
+312,Kate Miller,kate.miller@mail.com,555219361,Riga,,Boots,paid,174.94,NaT
+313,John Smith,john.smith @gmail.com,555985364,Riga,,Coat,cancelled,161.27,NaT
+314,Kate Miller,kate.miller@gmail.com,3725553140,Saint Petersburg,,T-shirt,paid,160.68,NaT
+315,Alex Brown,alex.brown@mail.com,555648513,Tallinn,2025-06-19,Boots,paid,185.27,2025-06
+316,Anna Ivanova,anna.ivanova@gmail.com,555630126,Tallinn,,Bag,pending,121.05,NaT
+317,Olga Sokolova,olga.sokolova@gmail.com,3725559305,Berlin,,Jacket,paid,154.1,NaT
+318,Maxim Orlov,maxim.orlov@example.com,78506916058,Tallinn,,Sneakers,cancelled,104.49,NaT
+319,Anna Ivanova,anna.ivanova@gmail.com,72415200001,Tallinn,,Sneakers,paid,136.21,NaT
+320,Maxim Orlov,maxim.orlov@mail.com,77117478955,Saint Petersburg,,Sneakers,pending,113.49,NaT
+321,Kate Miller,kate.miller@mail.com,3725559973,Tallinn,,Dress,pending,124.85,NaT
+322,Alex Brown,alex.brown @gmail.com,555993590,Tallinn,2025-02-18,Sneakers,paid,149.76,2025-02
+323,Maxim Orlov,maxim.orlov@example.com,3725559260,Tallinn,2025-05-16,Jacket,cancelled,79.09,2025-05
+324,Maria Petrova,maria.petrova @gmail.com,78086117171,Saint Petersburg,,Jeans,cancelled,224.62,NaT
+325,Kate Miller,kate.miller@mail.com,555943890,Berlin,2025-06-04,Jeans,cancelled,69.7,2025-06
+326,Kate Miller,kate.miller @gmail.com,555319899,Moscow,,T-shirt,paid,59.29,NaT
+327,Kate Miller,kate.miller@example.com,3725557839,Moscow,,Sneakers,paid,177.91,NaT
+328,Alex Brown,alex.brown@mail.com,3725553636,Saint Petersburg,2025-01-16,Sneakers,pending,159.58,2025-01
+329,Maxim Orlov,maxim.orlov@gmail.com,71670255496,Moscow,,Boots,cancelled,151.21,NaT
+330,Ivan Kuznetsov,ivan.kuznetsov@mail.com,3725551881,Tallinn,,Bag,paid,151.42,NaT
+331,Olga Sokolova,olga.sokolova@example.com,3725553906,Tallinn,,Jeans,cancelled,119.39,NaT
+332,Olga Sokolova,olga.sokolova @gmail.com,3725553636,Moscow,,Sneakers,paid,75.14,NaT
+333,Kate Miller,kate.miller@gmail.com,3725555934,Moscow,2025-03-23,Dress,cancelled,123.79,2025-03
+334,Maria Petrova,maria.petrova@example.com,555663123,Tallinn,,T-shirt,pending,86.14,NaT
+335,Alex Brown,alex.brown@example.com,555220294,Berlin,2025-03-03,Bag,paid,168.76,2025-03
+336,Kate Miller,kate.miller@example.com,79691982634,Unknown,,Jacket,cancelled,112.65,NaT
+337,Anna Ivanova,anna.ivanova@mail.com,3725554154,Moscow,2025-02-12,Bag,paid,78.73,2025-02
+338,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,78899689747,Tallinn,,Sneakers,paid,103.93,NaT
+339,John Smith,john.smith@gmail.com,3725553916,Tallinn,,Boots,cancelled,140.65,NaT
+340,Ivan Kuznetsov,ivan.kuznetsov@example.com,3725556183,Berlin,2025-06-14,Sneakers,paid,91.81,2025-06
+341,Kate Miller,kate.miller@gmail.com,77240793721,Riga,,Boots,cancelled,78.89,NaT
+342,Anna Ivanova,anna.ivanova@example.com,70944316108,Moscow,2025-04-11,Jeans,pending,132.18,2025-04
+343,Anna Ivanova,anna.ivanova @gmail.com,78611537583,Moscow,2025-04-11,Jeans,paid,132.25,2025-04
+344,Kate Miller,kate.miller @gmail.com,3725557760,Saint Petersburg,2025-02-26,Dress,paid,94.65,2025-02
+345,Anna Ivanova,anna.ivanova@example.com,555404771,Riga,,T-shirt,pending,96.45,NaT
+346,Maria Petrova,maria.petrova @gmail.com,3725552639,Berlin,,Jeans,paid,131.6,NaT
+347,Kate Miller,kate.miller@mail.com,3725558017,Tallinn,2025-02-26,Jeans,pending,47.6,2025-02
+348,Maria Petrova,maria.petrova@mail.com,555585331,Berlin,2025-05-05,Dress,pending,49.63,2025-05
+349,Maria Petrova,maria.petrova @gmail.com,3725555312,Berlin,2025-01-05,Boots,paid,84.08,2025-01
+350,Anna Ivanova,anna.ivanova@mail.com,555665892,Berlin,,Jeans,paid,109.33,NaT
+351,Maxim Orlov,maxim.orlov@gmail.com,72156792018,Berlin,2025-03-03,Coat,cancelled,135.55,2025-03
+352,Maria Petrova,maria.petrova @gmail.com,555871667,Saint Petersburg,,Dress,pending,193.77,NaT
+353,Kate Miller,kate.miller @gmail.com,555801062,Moscow,,Sneakers,pending,162.88,NaT
+354,John Smith,john.smith@mail.com,75041646576,Moscow,,Jeans,cancelled,112.0,NaT
+355,Alex Brown,alex.brown@example.com,555956934,Moscow,2025-05-04,Jacket,paid,119.05,2025-05
+356,Alex Brown,alex.brown@gmail.com,3725559430,Moscow,,Bag,cancelled,69.87,NaT
+357,Kate Miller,kate.miller@gmail.com,3725558889,Unknown,,Sneakers,paid,119.07,NaT
+358,Anna Ivanova,anna.ivanova @gmail.com,3725553639,Berlin,,Boots,paid,105.57,NaT
+359,Olga Sokolova,olga.sokolova@gmail.com,3725554548,Berlin,2025-04-16,Coat,cancelled,136.14,2025-04
+360,Olga Sokolova,olga.sokolova @gmail.com,555575497,Saint Petersburg,,Boots,paid,78.64,NaT
+361,John Smith,john.smith @gmail.com,72576180666,Moscow,,Sneakers,cancelled,145.97,NaT
+362,Ivan Kuznetsov,ivan.kuznetsov@mail.com,3725551711,Berlin,,Dress,cancelled,196.64,NaT
+363,Maria Petrova,maria.petrova@mail.com,555903061,Saint Petersburg,2025-06-03,Sneakers,paid,114.56,2025-06
+364,John Smith,john.smith@gmail.com,555786341,Tallinn,,Jeans,pending,140.09,NaT
+365,Ivan Kuznetsov,ivan.kuznetsov@mail.com,75169824924,Berlin,,Jacket,pending,154.51,NaT
+366,Olga Sokolova,olga.sokolova@mail.com,3725557522,Moscow,2025-04-25,Bag,cancelled,99.94,2025-04
+367,Ivan Kuznetsov,ivan.kuznetsov@mail.com,3725551852,Tallinn,,Dress,paid,131.2,NaT
+368,Olga Sokolova,olga.sokolova @gmail.com,72615759047,Berlin,,Jeans,paid,120.63,NaT
+369,Maria Petrova,maria.petrova@example.com,3725558192,Saint Petersburg,2025-06-03,Coat,paid,124.88,2025-06
+370,Kate Miller,kate.miller @gmail.com,76010521940,Berlin,,Sneakers,paid,81.35,NaT
+371,John Smith,john.smith@mail.com,71187592160,Berlin,,Sneakers,pending,121.23,NaT
+372,Maria Petrova,maria.petrova@example.com,72399300652,Berlin,,Jeans,cancelled,144.9,NaT
+373,Olga Sokolova,olga.sokolova@example.com,77626138802,Unknown,2025-04-28,Dress,pending,192.56,2025-04
+374,John Smith,john.smith@example.com,555809794,Moscow,,Jeans,paid,167.96,NaT
+375,Olga Sokolova,olga.sokolova@gmail.com,71468848245,Saint Petersburg,,Jeans,paid,227.66,NaT
+376,Alex Brown,alex.brown@example.com,555346269,Saint Petersburg,,T-shirt,paid,81.63,NaT
+377,John Smith,john.smith@gmail.com,555808640,Berlin,2025-04-06,Jeans,cancelled,163.62,2025-04
+378,Maria Petrova,maria.petrova@mail.com,70550812184,Moscow,,T-shirt,cancelled,129.17,NaT
+379,Maria Petrova,maria.petrova@example.com,555832162,Saint Petersburg,,Boots,paid,229.49,NaT
+380,Kate Miller,kate.miller@mail.com,3725555254,Tallinn,,T-shirt,paid,79.59,NaT
+381,Maxim Orlov,maxim.orlov@example.com,555539450,Moscow,,Bag,paid,78.01,NaT
+382,Olga Sokolova,olga.sokolova @gmail.com,3725558081,Moscow,,Boots,cancelled,90.03,NaT
+383,Maria Petrova,maria.petrova@mail.com,79667859842,Moscow,,Sneakers,paid,15.0,NaT
+384,Olga Sokolova,olga.sokolova@example.com,555571706,Saint Petersburg,,T-shirt,paid,93.71,NaT
+385,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,79444453176,Saint Petersburg,2025-06-16,T-shirt,pending,82.04,2025-06
+386,Maxim Orlov,maxim.orlov@example.com,555499581,Tallinn,,Boots,cancelled,127.52,NaT
+387,John Smith,john.smith@gmail.com,555460317,Berlin,,Boots,pending,137.09,NaT
+388,Maxim Orlov,maxim.orlov@mail.com,3725559535,Saint Petersburg,,Dress,paid,213.81,NaT
+389,Maria Petrova,maria.petrova@example.com,78068916300,Berlin,,Dress,paid,167.52,NaT
+390,Olga Sokolova,olga.sokolova @gmail.com,3725552381,Moscow,2025-03-05,Coat,cancelled,91.15,2025-03
+391,Maria Petrova,maria.petrova@gmail.com,555795781,Berlin,2025-04-30,Jacket,paid,75.08,2025-04
+392,Maria Petrova,maria.petrova@example.com,555648887,Moscow,2025-05-04,Jacket,pending,144.6,2025-05
+393,Kate Miller,kate.miller@example.com,3725555256,Riga,,Sneakers,cancelled,53.99,NaT
+394,Maxim Orlov,maxim.orlov@mail.com,3725551149,Tallinn,2025-01-02,Boots,cancelled,211.57,2025-01
+395,Alex Brown,alex.brown @gmail.com,555968668,Berlin,,Jeans,pending,178.97,NaT
+396,Olga Sokolova,olga.sokolova@example.com,3725554080,Berlin,,Jacket,pending,96.54,NaT
+397,Maxim Orlov,maxim.orlov @gmail.com,70653476296,Saint Petersburg,,Jeans,paid,34.34,NaT
+398,Maxim Orlov,maxim.orlov@gmail.com,555194578,Unknown,,T-shirt,cancelled,187.69,NaT
+399,Anna Ivanova,anna.ivanova@mail.com,555984522,Moscow,,Bag,pending,114.27,NaT
+400,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555905459,Moscow,,Bag,cancelled,181.89,NaT
+401,John Smith,john.smith @gmail.com,71387545832,Berlin,2025-01-11,Dress,pending,40.28,2025-01
+402,Maxim Orlov,maxim.orlov@mail.com,73811867564,Tallinn,,T-shirt,paid,90.03,NaT
+403,Maria Petrova,maria.petrova@mail.com,3725552960,Riga,2025-01-11,Coat,pending,120.26,2025-01
+404,John Smith,john.smith @gmail.com,78982501269,Tallinn,2025-03-28,Coat,cancelled,122.35,2025-03
+405,John Smith,,78125201729,Tallinn,,Coat,pending,97.5,NaT
+406,Anna Ivanova,anna.ivanova@example.com,79855724156,Berlin,,T-shirt,pending,151.14,NaT
+407,Maxim Orlov,maxim.orlov@mail.com,555172222,Riga,,Sneakers,cancelled,66.62,NaT
+408,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,77975021081,Berlin,,Boots,paid,112.88,NaT
+409,Maxim Orlov,,3725555638,Moscow,2025-05-14,Coat,paid,126.01,2025-05
+410,Alex Brown,alex.brown@gmail.com,70424143426,Berlin,,Jeans,paid,145.72,NaT
+411,Kate Miller,kate.miller @gmail.com,555113721,Moscow,,T-shirt,cancelled,155.58,NaT
+412,Ivan Kuznetsov,ivan.kuznetsov@mail.com,76944675764,Saint Petersburg,2025-01-11,Dress,paid,63.77,2025-01
+413,John Smith,john.smith@gmail.com,3725554784,Moscow,2025-05-15,Boots,paid,43.29,2025-05
+414,Kate Miller,kate.miller@example.com,555209159,Berlin,,Jacket,pending,183.88,NaT
+415,Kate Miller,kate.miller@mail.com,77412545268,Tallinn,2025-03-03,Jeans,pending,136.62,2025-03
+416,Maxim Orlov,,555100205,Saint Petersburg,,Sneakers,pending,82.58,NaT
+417,Alex Brown,alex.brown @gmail.com,77826879784,Berlin,2025-05-11,Coat,paid,197.56,2025-05
+418,Anna Ivanova,anna.ivanova@example.com,555263690,Saint Petersburg,,Dress,cancelled,125.78,NaT
+419,Alex Brown,alex.brown@gmail.com,555931420,Moscow,2025-06-26,Jeans,paid,178.96,2025-06
+420,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555908348,Saint Petersburg,,Sneakers,cancelled,123.38,NaT
+421,Anna Ivanova,anna.ivanova@mail.com,79961388686,Saint Petersburg,,Coat,paid,223.04,NaT
+422,Ivan Kuznetsov,ivan.kuznetsov@example.com,555194458,Moscow,,Jacket,paid,207.77,NaT
+423,Ivan Kuznetsov,,76450281157,Saint Petersburg,,Jacket,cancelled,107.55,NaT
+424,Alex Brown,alex.brown @gmail.com,76142085555,Tallinn,,Boots,pending,168.58,NaT
+425,Kate Miller,kate.miller @gmail.com,555461260,Riga,,Sneakers,paid,152.27,NaT
+426,Alex Brown,alex.brown@mail.com,70368570209,Moscow,,Jeans,paid,188.43,NaT
+427,Kate Miller,kate.miller@gmail.com,555571923,Saint Petersburg,2025-02-23,Jeans,cancelled,71.75,2025-02
+428,Maxim Orlov,maxim.orlov @gmail.com,3725551301,Berlin,,Jeans,paid,154.3,NaT
+429,Maxim Orlov,maxim.orlov@gmail.com,77131247005,Moscow,,Jeans,cancelled,172.92,NaT
+430,Alex Brown,alex.brown@example.com,75649840375,Berlin,,Jacket,cancelled,32.06,NaT
+431,Anna Ivanova,anna.ivanova@gmail.com,555655132,Tallinn,2025-04-11,T-shirt,pending,60.84,2025-04
+432,Olga Sokolova,olga.sokolova @gmail.com,73487053308,Moscow,,Jeans,paid,18.04,NaT
+433,Maria Petrova,maria.petrova@mail.com,70589530134,Berlin,2025-04-08,Bag,cancelled,106.53,2025-04
+434,Alex Brown,alex.brown @gmail.com,75709234482,Berlin,,Bag,paid,155.88,NaT
+435,Olga Sokolova,olga.sokolova @gmail.com,79213359382,Berlin,,Dress,paid,195.12,NaT
+436,Kate Miller,kate.miller @gmail.com,555902616,Saint Petersburg,,Coat,paid,123.7,NaT
+437,John Smith,,79736100768,Saint Petersburg,,Sneakers,pending,201.43,NaT
+438,John Smith,john.smith@example.com,3725553196,Moscow,,Bag,paid,50.99,NaT
+439,Anna Ivanova,anna.ivanova@example.com,3725551245,Moscow,,Coat,cancelled,34.83,NaT
+440,Maxim Orlov,maxim.orlov@mail.com,3725558496,Tallinn,2025-06-05,Boots,cancelled,117.22,2025-06
+441,Anna Ivanova,anna.ivanova@gmail.com,74277084664,Moscow,,Boots,cancelled,139.2,NaT
+442,Anna Ivanova,anna.ivanova @gmail.com,555560905,Moscow,,Coat,cancelled,118.37,NaT
+443,Maxim Orlov,maxim.orlov@gmail.com,555218669,Moscow,,Jacket,paid,16.63,NaT
+444,Maxim Orlov,maxim.orlov@gmail.com,73420882289,Riga,,T-shirt,paid,115.54,NaT
+445,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,3725557204,Moscow,2025-03-27,Coat,paid,54.78,2025-03
+446,Maria Petrova,maria.petrova@gmail.com,555423026,Moscow,2025-03-15,Bag,paid,153.48,2025-03
+447,Olga Sokolova,olga.sokolova@gmail.com,77968929797,Saint Petersburg,2025-01-02,Bag,cancelled,138.33,2025-01
+448,Maxim Orlov,maxim.orlov@example.com,70028230917,Saint Petersburg,2025-03-13,Sneakers,paid,73.01,2025-03
+449,Maria Petrova,maria.petrova@gmail.com,78729229346,Moscow,,Sneakers,paid,94.31,NaT
+450,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,79811339717,Berlin,2025-06-27,Coat,cancelled,67.04,2025-06
+451,Kate Miller,kate.miller@gmail.com,555905843,Berlin,,Dress,pending,116.87,NaT
+452,Maxim Orlov,maxim.orlov @gmail.com,555828361,Saint Petersburg,,Sneakers,paid,167.76,NaT
+453,John Smith,john.smith@example.com,75654275321,Moscow,2025-05-28,Jacket,cancelled,70.71,2025-05
+454,Maxim Orlov,maxim.orlov@example.com,555739008,Riga,,Dress,paid,145.2,NaT
+455,Ivan Kuznetsov,ivan.kuznetsov@example.com,70911984483,Moscow,2025-02-21,Jeans,pending,93.49,2025-02
+456,Kate Miller,kate.miller@gmail.com,555819150,Moscow,2025-05-26,Bag,pending,80.36,2025-05
+457,Kate Miller,kate.miller@example.com,3725558774,Berlin,,T-shirt,cancelled,114.65,NaT
+458,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,77207803934,Tallinn,,T-shirt,paid,68.24,NaT
+459,Maria Petrova,maria.petrova@mail.com,78519577735,Tallinn,,Coat,paid,92.32,NaT
+460,Olga Sokolova,olga.sokolova@mail.com,555384685,Saint Petersburg,,Bag,cancelled,60.11,NaT
+461,Olga Sokolova,olga.sokolova @gmail.com,3725552838,Riga,,Coat,paid,218.24,NaT
+462,Kate Miller,kate.miller@example.com,3725559579,Moscow,2025-01-26,Bag,paid,121.76,2025-01
+463,Maxim Orlov,maxim.orlov@example.com,3725559558,Tallinn,2025-06-25,Jacket,paid,85.01,2025-06
+464,John Smith,john.smith@mail.com,77552673448,Saint Petersburg,,Jeans,cancelled,130.7,NaT
+465,Kate Miller,kate.miller@example.com,555385898,Berlin,,Dress,paid,114.38,NaT
+466,Kate Miller,kate.miller@mail.com,77748133196,Berlin,,T-shirt,cancelled,108.95,NaT
+467,Maxim Orlov,maxim.orlov@gmail.com,3725553131,Tallinn,,Coat,cancelled,150.71,NaT
+468,Kate Miller,kate.miller@mail.com,79440970050,Riga,,Coat,paid,157.88,NaT
+469,Maxim Orlov,maxim.orlov@gmail.com,3725558464,Berlin,,Jeans,pending,93.47,NaT
+470,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555927094,Tallinn,,Jacket,cancelled,91.21,NaT
+471,Maria Petrova,maria.petrova@mail.com,72468224333,Moscow,,T-shirt,cancelled,106.25,NaT
+472,John Smith,john.smith@mail.com,71775719463,Riga,2025-03-04,Boots,paid,15.0,2025-03
+473,Kate Miller,kate.miller @gmail.com,78504916685,Moscow,2025-03-29,Dress,cancelled,44.24,2025-03
+474,John Smith,john.smith@example.com,555682051,Berlin,,Boots,pending,188.34,NaT
+475,Maxim Orlov,maxim.orlov@gmail.com,73509132563,Moscow,,Jacket,cancelled,202.25,NaT
+476,Olga Sokolova,olga.sokolova@example.com,555305171,Saint Petersburg,2025-03-18,Boots,pending,107.55,2025-03
+477,John Smith,john.smith@gmail.com,555523831,Moscow,,Sneakers,cancelled,148.83,NaT
+478,Kate Miller,kate.miller@gmail.com,75305320432,Tallinn,,Boots,cancelled,135.56,NaT
+479,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,70597296237,Moscow,,Jeans,paid,273.94,NaT
+480,Maria Petrova,maria.petrova@gmail.com,70067464491,Moscow,2025-05-05,Dress,paid,175.98,2025-05
+481,Ivan Kuznetsov,ivan.kuznetsov@example.com,75067191149,Tallinn,2025-04-19,T-shirt,paid,113.6,2025-04
+482,Maria Petrova,maria.petrova@example.com,73139249064,Berlin,,T-shirt,paid,72.22,NaT
+483,Anna Ivanova,anna.ivanova@example.com,76787202740,Berlin,,Jeans,cancelled,39.68,NaT
+484,John Smith,john.smith@gmail.com,72872118270,Saint Petersburg,2025-06-12,Sneakers,pending,130.17,2025-06
+485,Anna Ivanova,anna.ivanova@example.com,78186444252,Saint Petersburg,,Jeans,paid,82.18,NaT
+486,Anna Ivanova,anna.ivanova@mail.com,76997790446,Saint Petersburg,2025-02-13,Sneakers,pending,48.89,2025-02
+487,Maxim Orlov,maxim.orlov@gmail.com,555630155,Saint Petersburg,2025-02-03,Sneakers,paid,87.67,2025-02
+488,Maria Petrova,maria.petrova @gmail.com,555487728,Berlin,,Sneakers,pending,65.92,NaT
+489,John Smith,john.smith @gmail.com,555978302,Moscow,2025-03-02,Bag,pending,204.36,2025-03
+490,Anna Ivanova,anna.ivanova@mail.com,555155074,Berlin,,Bag,cancelled,164.08,NaT
+491,Ivan Kuznetsov,ivan.kuznetsov@example.com,555252200,Berlin,,Sneakers,paid,119.6,NaT
+492,Kate Miller,kate.miller@example.com,3725555466,Riga,2025-03-07,Bag,paid,194.0,2025-03
+493,Kate Miller,kate.miller @gmail.com,3725556132,Berlin,,Dress,cancelled,123.87,NaT
+494,Kate Miller,kate.miller @gmail.com,3725555641,Berlin,,Bag,paid,76.94,NaT
+495,John Smith,john.smith@gmail.com,3725553128,Riga,,Dress,cancelled,196.16,NaT
+496,Olga Sokolova,olga.sokolova@example.com,3725556298,Moscow,,Jeans,pending,146.95,NaT
+497,Maria Petrova,maria.petrova@example.com,555615607,Moscow,2025-02-15,Boots,paid,68.14,2025-02
+498,John Smith,john.smith@example.com,3725555243,Riga,2025-05-27,Sneakers,cancelled,110.48,2025-05
+499,Maria Petrova,maria.petrova@gmail.com,3725551619,Berlin,,Sneakers,cancelled,76.22,NaT
+500,Maxim Orlov,maxim.orlov@example.com,73373188745,Riga,,Dress,cancelled,50.86,NaT
+501,Kate Miller,kate.miller@mail.com,78826993893,Tallinn,,Dress,cancelled,166.31,NaT
+502,Olga Sokolova,olga.sokolova @gmail.com,75115319619,Tallinn,,Jacket,paid,215.47,NaT
+503,Maxim Orlov,maxim.orlov @gmail.com,70829326917,Moscow,,Jeans,cancelled,50.07,NaT
+504,Maxim Orlov,maxim.orlov@gmail.com,74535719338,Berlin,,Jacket,cancelled,148.15,NaT
+505,Maria Petrova,maria.petrova @gmail.com,555138669,Berlin,,Sneakers,paid,87.47,NaT
+506,Maria Petrova,maria.petrova@gmail.com,555763393,Moscow,,Dress,paid,95.64,NaT
+507,Maxim Orlov,maxim.orlov @gmail.com,555943530,Berlin,,Coat,pending,90.38,NaT
+508,Alex Brown,alex.brown@gmail.com,555451801,Tallinn,,Coat,cancelled,76.8,NaT
+509,Alex Brown,alex.brown@gmail.com,555204823,Moscow,,Jeans,cancelled,122.43,NaT
+510,Maxim Orlov,maxim.orlov @gmail.com,77042997784,Moscow,,Sneakers,paid,78.45,NaT
+511,Maxim Orlov,maxim.orlov@gmail.com,71798671637,Berlin,,Dress,pending,133.52,NaT
+512,Alex Brown,alex.brown@example.com,3725554409,Riga,2025-02-08,Jacket,paid,117.49,2025-02
+513,Maria Petrova,,3725551885,Unknown,,Sneakers,paid,108.05,NaT
+514,Anna Ivanova,anna.ivanova @gmail.com,74419801487,Riga,,T-shirt,cancelled,74.62,NaT
+515,Alex Brown,alex.brown@mail.com,3725554769,Saint Petersburg,,Boots,paid,91.16,NaT
+516,John Smith,john.smith@example.com,3725558936,Tallinn,2025-02-25,T-shirt,paid,157.77,2025-02
+517,Maxim Orlov,maxim.orlov @gmail.com,3725556875,Saint Petersburg,2025-01-09,Coat,paid,145.05,2025-01
+518,Maxim Orlov,maxim.orlov@example.com,3725557852,Berlin,2025-03-17,Coat,cancelled,71.12,2025-03
+519,Alex Brown,alex.brown@gmail.com,3725557745,Saint Petersburg,,Sneakers,cancelled,124.97,NaT
+520,Alex Brown,alex.brown @gmail.com,72488791944,Tallinn,2025-02-08,Sneakers,paid,157.57,2025-02
+521,Maxim Orlov,maxim.orlov@gmail.com,75988559484,Moscow,,Sneakers,cancelled,36.53,NaT
+522,Alex Brown,alex.brown @gmail.com,3725556872,Moscow,,Jacket,paid,147.17,NaT
+523,Maxim Orlov,maxim.orlov@example.com,555837290,Moscow,,Dress,cancelled,86.87,NaT
+524,Kate Miller,kate.miller@gmail.com,77528596672,Saint Petersburg,2025-06-06,Dress,pending,148.53,2025-06
+525,Anna Ivanova,anna.ivanova@mail.com,555216356,Moscow,,Dress,cancelled,81.84,NaT
+526,Alex Brown,alex.brown @gmail.com,72317709657,Berlin,2025-05-03,Bag,paid,29.76,2025-05
+527,Kate Miller,kate.miller@mail.com,555628027,Riga,,Jacket,cancelled,38.62,NaT
+528,John Smith,,555811257,Moscow,,Bag,cancelled,122.4,NaT
+529,John Smith,john.smith@gmail.com,3725557400,Moscow,,Jacket,paid,132.99,NaT
+530,Alex Brown,alex.brown@gmail.com,555536770,Moscow,,Jeans,paid,74.78,NaT
+531,John Smith,john.smith@gmail.com,555975505,Tallinn,,Jacket,cancelled,151.93,NaT
+532,Maxim Orlov,maxim.orlov@example.com,3725555982,Saint Petersburg,,Sneakers,paid,36.92,NaT
+533,Kate Miller,kate.miller@mail.com,79280521873,Moscow,,Coat,paid,116.7,NaT
+534,John Smith,john.smith@gmail.com,555702433,Moscow,,T-shirt,pending,59.45,NaT
+535,Maria Petrova,maria.petrova@mail.com,74189593189,Tallinn,,Jacket,paid,87.41,NaT
+536,Maxim Orlov,maxim.orlov@mail.com,76474272494,Saint Petersburg,,Coat,cancelled,122.37,NaT
+537,Kate Miller,kate.miller@gmail.com,79188753085,Berlin,,Bag,cancelled,76.98,NaT
+538,Kate Miller,kate.miller@gmail.com,79428096352,Moscow,,Jacket,paid,100.77,NaT
+539,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555433193,Tallinn,2025-02-07,Boots,pending,170.31,2025-02
+540,Anna Ivanova,anna.ivanova@mail.com,3725556651,Riga,2025-04-24,Jeans,paid,91.16,2025-04
+541,Ivan Kuznetsov,ivan.kuznetsov@example.com,3725553286,Berlin,,T-shirt,paid,161.78,NaT
+542,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,3725551108,Moscow,,Bag,paid,63.51,NaT
+543,Ivan Kuznetsov,ivan.kuznetsov@mail.com,555144284,Unknown,2025-05-24,Sneakers,paid,146.49,2025-05
+544,Olga Sokolova,olga.sokolova@mail.com,555230208,Saint Petersburg,,Sneakers,paid,192.08,NaT
+545,Olga Sokolova,olga.sokolova@example.com,77497147047,Saint Petersburg,2025-05-04,Jacket,paid,15.0,2025-05
+546,Kate Miller,kate.miller@gmail.com,3725555252,Moscow,,T-shirt,paid,80.16,NaT
+547,Anna Ivanova,anna.ivanova@mail.com,3725556917,Moscow,,Bag,paid,148.85,NaT
+548,John Smith,john.smith @gmail.com,78042082047,Tallinn,,Dress,cancelled,109.85,NaT
+549,Kate Miller,kate.miller @gmail.com,555243601,Moscow,,Dress,paid,138.56,NaT
+550,Maria Petrova,maria.petrova @gmail.com,555933729,Moscow,,Jacket,pending,89.8,NaT
+551,Olga Sokolova,olga.sokolova@mail.com,3725553277,Moscow,,Bag,paid,124.33,NaT
+552,Maria Petrova,maria.petrova @gmail.com,3725556036,Moscow,2025-04-19,Dress,paid,112.22,2025-04
+553,Maxim Orlov,maxim.orlov@example.com,70463072131,Moscow,2025-05-12,Jeans,paid,178.39,2025-05
+554,John Smith,john.smith@mail.com,72584676841,Moscow,,Dress,paid,132.72,NaT
+555,Olga Sokolova,olga.sokolova@mail.com,72632627835,Berlin,,Sneakers,cancelled,136.88,NaT
+556,Alex Brown,alex.brown @gmail.com,72306940725,Riga,,T-shirt,paid,99.41,NaT
+557,Maxim Orlov,maxim.orlov@gmail.com,3725553963,Tallinn,,Dress,cancelled,95.62,NaT
+558,John Smith,john.smith @gmail.com,79828050239,Moscow,,Boots,pending,98.37,NaT
+559,Maxim Orlov,maxim.orlov@mail.com,555336845,Riga,,T-shirt,paid,139.72,NaT
+560,Anna Ivanova,anna.ivanova@example.com,3725552723,Moscow,,Coat,paid,98.95,NaT
+561,Kate Miller,kate.miller @gmail.com,3725556548,Saint Petersburg,,Jeans,cancelled,134.49,NaT
+562,Kate Miller,kate.miller@example.com,3725557626,Riga,,Jacket,paid,223.77,NaT
+563,Maria Petrova,maria.petrova@gmail.com,74588007201,Tallinn,,Coat,pending,163.56,NaT
+564,John Smith,john.smith@gmail.com,555904857,Saint Petersburg,,T-shirt,cancelled,103.7,NaT
+565,Anna Ivanova,anna.ivanova@gmail.com,555224921,Moscow,,Coat,cancelled,180.06,NaT
+566,Olga Sokolova,olga.sokolova @gmail.com,74872589903,Berlin,,Jacket,cancelled,99.6,NaT
+567,Maxim Orlov,maxim.orlov@example.com,555631297,Berlin,2025-05-07,T-shirt,pending,18.09,2025-05
+568,Kate Miller,kate.miller@gmail.com,555719145,Tallinn,2025-03-31,Boots,paid,69.6,2025-03
+569,Ivan Kuznetsov,ivan.kuznetsov@mail.com,71508689990,Saint Petersburg,,Dress,paid,26.46,NaT
+570,Olga Sokolova,olga.sokolova@gmail.com,555278026,Tallinn,,Boots,pending,102.42,NaT
+571,Anna Ivanova,anna.ivanova@example.com,75971296417,Saint Petersburg,,T-shirt,cancelled,120.92,NaT
+572,Kate Miller,kate.miller @gmail.com,3725555907,Moscow,2025-05-08,Bag,pending,203.82,2025-05
+573,Olga Sokolova,olga.sokolova@gmail.com,79560107471,Moscow,2025-01-24,T-shirt,pending,136.35,2025-01
+574,John Smith,john.smith@example.com,555319927,Berlin,,T-shirt,paid,109.04,NaT
+575,Ivan Kuznetsov,ivan.kuznetsov@example.com,76508461289,Berlin,,Coat,cancelled,161.47,NaT
+576,Alex Brown,alex.brown@example.com,72691907159,Unknown,,Coat,pending,15.0,NaT
+577,Ivan Kuznetsov,ivan.kuznetsov@example.com,73913307055,Saint Petersburg,,Coat,pending,131.78,NaT
+578,Alex Brown,alex.brown@example.com,3725554907,Berlin,,Boots,cancelled,158.54,NaT
+579,Anna Ivanova,anna.ivanova @gmail.com,555385959,Moscow,2025-03-13,Jacket,paid,46.07,2025-03
+580,Anna Ivanova,anna.ivanova@gmail.com,555730823,Tallinn,2025-06-21,Coat,paid,177.19,2025-06
+581,John Smith,john.smith@gmail.com,3725559551,Tallinn,2025-03-02,T-shirt,cancelled,136.92,2025-03
+582,Alex Brown,alex.brown@example.com,3725554571,Berlin,,Sneakers,cancelled,99.24,NaT
+583,Kate Miller,kate.miller@gmail.com,76115094199,Moscow,,T-shirt,cancelled,151.64,NaT
+584,Kate Miller,kate.miller@mail.com,72601954488,Saint Petersburg,,Jeans,cancelled,233.53,NaT
+585,Ivan Kuznetsov,ivan.kuznetsov@mail.com,72943119201,Tallinn,,Jeans,pending,129.09,NaT
+586,John Smith,john.smith @gmail.com,3725555872,Riga,,Jacket,cancelled,132.41,NaT
+587,Kate Miller,kate.miller@example.com,555964446,Berlin,,T-shirt,cancelled,97.03,NaT
+588,Anna Ivanova,anna.ivanova@gmail.com,3725554010,Tallinn,,Dress,paid,77.51,NaT
+589,Maria Petrova,maria.petrova @gmail.com,73277758858,Tallinn,,Jacket,cancelled,161.52,NaT
+590,Maria Petrova,maria.petrova@mail.com,3725553842,Tallinn,,Bag,paid,77.2,NaT
+591,Anna Ivanova,anna.ivanova @gmail.com,75146514161,Tallinn,,Jeans,paid,123.58,NaT
+592,John Smith,john.smith@mail.com,70504016658,Riga,,Jacket,paid,96.12,NaT
+593,Alex Brown,alex.brown @gmail.com,555952924,Saint Petersburg,,Bag,pending,143.95,NaT
+594,Alex Brown,alex.brown@example.com,3725553955,Riga,,Bag,pending,136.68,NaT
+595,Maxim Orlov,maxim.orlov@gmail.com,77271480813,Tallinn,2025-02-24,Jeans,paid,171.88,2025-02
+596,John Smith,john.smith@gmail.com,555449031,Berlin,2025-04-01,Sneakers,paid,94.5,2025-04
+597,Olga Sokolova,olga.sokolova@example.com,3725555956,Saint Petersburg,,Coat,cancelled,106.51,NaT
+598,Maxim Orlov,maxim.orlov@mail.com,74680002451,Moscow,,T-shirt,paid,71.06,NaT
+599,Maria Petrova,maria.petrova@example.com,555884149,Tallinn,,Coat,pending,97.79,NaT
+600,Maxim Orlov,maxim.orlov @gmail.com,3725558208,Saint Petersburg,,Coat,cancelled,138.87,NaT
+601,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,76191279918,Moscow,,Coat,paid,157.85,NaT
+602,Kate Miller,kate.miller@gmail.com,79312756126,Berlin,2025-03-11,Bag,paid,73.89,2025-03
+603,Maria Petrova,maria.petrova@example.com,77594590645,Moscow,,Boots,pending,163.48,NaT
+604,John Smith,john.smith@mail.com,74643131245,Saint Petersburg,,Sneakers,pending,187.78,NaT
+605,Anna Ivanova,,3725556323,Moscow,,Dress,cancelled,140.67,NaT
+606,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555367558,Moscow,,Boots,cancelled,213.84,NaT
+607,Olga Sokolova,olga.sokolova @gmail.com,74858839243,Riga,,Jacket,cancelled,81.31,NaT
+608,Maxim Orlov,maxim.orlov@mail.com,555194604,Tallinn,,Dress,paid,57.77,NaT
+609,Kate Miller,kate.miller@example.com,555779068,Riga,,Jeans,paid,31.06,NaT
+610,Maria Petrova,maria.petrova@mail.com,76132061410,Moscow,2025-01-13,Dress,cancelled,194.8,2025-01
+611,Ivan Kuznetsov,ivan.kuznetsov@example.com,555587227,Moscow,,Dress,cancelled,152.72,NaT
+612,Maria Petrova,maria.petrova @gmail.com,74652697543,Riga,,Jacket,pending,117.22,NaT
+613,Kate Miller,kate.miller @gmail.com,78925889192,Berlin,2025-03-08,Sneakers,paid,134.0,2025-03
+614,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555280077,Berlin,,Jacket,pending,63.73,NaT
+615,Kate Miller,kate.miller@example.com,3725555958,Saint Petersburg,,Sneakers,paid,242.29,NaT
+616,Maxim Orlov,maxim.orlov @gmail.com,3725554961,Tallinn,,Sneakers,paid,126.46,NaT
+617,Maria Petrova,maria.petrova @gmail.com,555608608,Berlin,,Boots,paid,125.47,NaT
+618,Kate Miller,kate.miller@gmail.com,3725552682,Berlin,,Jacket,paid,156.29,NaT
+619,Anna Ivanova,anna.ivanova@gmail.com,3725557914,Riga,2025-03-10,Dress,cancelled,144.05,2025-03
+620,Kate Miller,kate.miller@example.com,74987889148,Saint Petersburg,,Bag,pending,131.19,NaT
+621,Maxim Orlov,maxim.orlov @gmail.com,555858115,Riga,2025-06-22,Coat,paid,80.48,2025-06
+622,Olga Sokolova,olga.sokolova@gmail.com,3725558911,Tallinn,,Jacket,pending,143.57,NaT
+623,Alex Brown,alex.brown @gmail.com,75415129153,Berlin,,Sneakers,paid,214.1,NaT
+624,Kate Miller,kate.miller@example.com,70973627242,Tallinn,,T-shirt,paid,187.27,NaT
+625,Olga Sokolova,olga.sokolova @gmail.com,72875420006,Moscow,,Dress,paid,199.66,NaT
+626,Anna Ivanova,anna.ivanova@gmail.com,71553225274,Berlin,2025-03-16,Jacket,paid,94.44,2025-03
+627,Maria Petrova,maria.petrova@mail.com,3725556482,Moscow,,Bag,cancelled,70.52,NaT
+628,Kate Miller,kate.miller@mail.com,555279581,Saint Petersburg,,Coat,cancelled,113.71,NaT
+629,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555940715,Tallinn,2025-04-28,Sneakers,cancelled,122.79,2025-04
+630,Maria Petrova,,555172961,Tallinn,,Sneakers,paid,174.71,NaT
+631,Anna Ivanova,anna.ivanova@mail.com,78046820375,Saint Petersburg,,Coat,cancelled,35.38,NaT
+632,Maxim Orlov,maxim.orlov @gmail.com,77095445250,Saint Petersburg,2025-03-30,Jeans,paid,196.48,2025-03
+633,Anna Ivanova,anna.ivanova@mail.com,73779036992,Berlin,,Jeans,cancelled,112.1,NaT
+634,Kate Miller,kate.miller @gmail.com,555129246,Moscow,2025-04-19,T-shirt,pending,98.66,2025-04
+635,Kate Miller,kate.miller@gmail.com,555893310,Tallinn,2025-05-27,Bag,cancelled,69.39,2025-05
+636,Alex Brown,alex.brown@mail.com,555398357,Tallinn,2025-05-14,Bag,pending,37.26,2025-05
+637,Maxim Orlov,maxim.orlov@gmail.com,3725553401,Riga,,Bag,cancelled,161.16,NaT
+638,John Smith,john.smith@mail.com,555522317,Riga,,Boots,paid,123.67,NaT
+639,Maria Petrova,maria.petrova @gmail.com,71965861527,Unknown,2025-05-12,Jacket,cancelled,55.5,2025-05
+640,Anna Ivanova,anna.ivanova @gmail.com,3725557051,Berlin,2025-04-05,Coat,paid,55.25,2025-04
+641,Kate Miller,kate.miller@mail.com,3725557135,Tallinn,,Sneakers,pending,103.21,NaT
+642,Olga Sokolova,olga.sokolova @gmail.com,3725553999,Moscow,2025-02-01,Boots,cancelled,203.45,2025-02
+643,Olga Sokolova,olga.sokolova@example.com,75915482645,Berlin,,Jacket,cancelled,107.02,NaT
+644,Maxim Orlov,maxim.orlov @gmail.com,3725556328,Riga,,Jeans,paid,44.84,NaT
+645,Maria Petrova,maria.petrova@gmail.com,72770939734,Berlin,,Sneakers,cancelled,107.71,NaT
+646,Alex Brown,alex.brown@example.com,79106546880,Saint Petersburg,,Bag,cancelled,106.36,NaT
+647,John Smith,john.smith@mail.com,3725557583,Moscow,,T-shirt,cancelled,15.0,NaT
+648,Olga Sokolova,olga.sokolova@gmail.com,555204158,Moscow,,Coat,pending,117.29,NaT
+649,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,3725551965,Tallinn,2025-01-07,Dress,pending,108.45,2025-01
+650,Maria Petrova,maria.petrova@example.com,3725556311,Riga,2025-03-03,Boots,paid,154.81,2025-03
+651,Olga Sokolova,olga.sokolova@gmail.com,3725556215,Saint Petersburg,,Sneakers,pending,212.45,NaT
+652,John Smith,john.smith @gmail.com,555419409,Moscow,2025-01-22,T-shirt,cancelled,176.33,2025-01
+653,Maria Petrova,maria.petrova @gmail.com,3725559806,Berlin,,Jeans,paid,106.56,NaT
+654,Anna Ivanova,anna.ivanova@gmail.com,76862789747,Saint Petersburg,,Jeans,paid,64.67,NaT
+655,Maria Petrova,maria.petrova@gmail.com,79189727921,Berlin,,T-shirt,pending,248.67,NaT
+656,Olga Sokolova,olga.sokolova@example.com,3725555473,Moscow,2025-04-28,Sneakers,cancelled,122.96,2025-04
+657,Anna Ivanova,anna.ivanova@gmail.com,72797168211,Moscow,2025-01-08,T-shirt,cancelled,120.7,2025-01
+658,Kate Miller,kate.miller@example.com,555979908,Saint Petersburg,,Sneakers,pending,118.79,NaT
+659,Kate Miller,kate.miller @gmail.com,3725552474,Riga,,Bag,paid,129.9,NaT
+660,Alex Brown,alex.brown@example.com,72121762474,Berlin,2025-02-19,Coat,paid,112.78,2025-02
+661,Maria Petrova,maria.petrova@gmail.com,73674254156,Moscow,,Jeans,cancelled,91.32,NaT
+662,Maxim Orlov,maxim.orlov@gmail.com,555772101,Berlin,,Jacket,cancelled,92.66,NaT
+663,Kate Miller,kate.miller@gmail.com,3725554678,Berlin,,Sneakers,paid,118.36,NaT
+664,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555306440,Moscow,2025-01-17,Jacket,cancelled,92.83,2025-01
+665,Anna Ivanova,anna.ivanova@mail.com,3725555102,Berlin,,Bag,paid,84.36,NaT
+666,Maxim Orlov,maxim.orlov@gmail.com,3725558314,Moscow,,Coat,paid,125.32,NaT
+667,Maxim Orlov,maxim.orlov@gmail.com,3725555939,Moscow,2025-01-27,Jeans,cancelled,107.25,2025-01
+668,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555344435,Berlin,,Dress,pending,195.2,NaT
+669,Anna Ivanova,anna.ivanova@example.com,3725559474,Moscow,,Bag,paid,15.0,NaT
+670,Olga Sokolova,olga.sokolova@mail.com,3725557897,Saint Petersburg,,Boots,cancelled,174.58,NaT
+671,Kate Miller,kate.miller@mail.com,555913166,Tallinn,2025-03-21,Sneakers,cancelled,182.3,2025-03
+672,Maria Petrova,maria.petrova@gmail.com,555631741,Unknown,,Dress,pending,16.33,NaT
+673,Alex Brown,alex.brown@example.com,77268862104,Tallinn,,T-shirt,paid,102.87,NaT
+674,John Smith,john.smith@example.com,3725551691,Saint Petersburg,,Bag,cancelled,101.43,NaT
+675,Kate Miller,kate.miller@example.com,555519758,Berlin,,Dress,paid,49.62,NaT
+676,Olga Sokolova,olga.sokolova@example.com,3725554185,Moscow,,Bag,pending,81.11,NaT
+677,Maria Petrova,maria.petrova@mail.com,3725555029,Moscow,,Boots,paid,64.47,NaT
+678,Kate Miller,kate.miller @gmail.com,555578364,Berlin,,Boots,paid,207.61,NaT
+679,John Smith,john.smith @gmail.com,70814502461,Berlin,2025-04-07,Boots,paid,166.78,2025-04
+680,Anna Ivanova,anna.ivanova @gmail.com,555408472,Saint Petersburg,,Coat,cancelled,183.58,NaT
+681,Maxim Orlov,maxim.orlov @gmail.com,70278627610,Tallinn,2025-04-10,Jacket,cancelled,156.08,2025-04
+682,Maxim Orlov,maxim.orlov @gmail.com,77277863632,Tallinn,,Sneakers,paid,63.55,NaT
+683,Alex Brown,alex.brown @gmail.com,555345770,Tallinn,,Jeans,cancelled,93.77,NaT
+684,John Smith,john.smith @gmail.com,71510002930,Tallinn,,Boots,cancelled,144.47,NaT
+685,Maxim Orlov,maxim.orlov@example.com,555485364,Riga,,Bag,pending,58.89,NaT
+686,John Smith,john.smith@mail.com,555408824,Unknown,,Sneakers,cancelled,155.65,NaT
+687,Alex Brown,alex.brown@mail.com,555807901,Berlin,,Coat,cancelled,107.98,NaT
+688,Olga Sokolova,olga.sokolova@gmail.com,555395536,Moscow,2025-04-14,Jacket,cancelled,101.26,2025-04
+689,Maria Petrova,maria.petrova@example.com,3725554728,Riga,2025-05-13,Jacket,pending,155.55,2025-05
+690,John Smith,john.smith@mail.com,3725554077,Moscow,,T-shirt,paid,142.21,NaT
+691,Maria Petrova,maria.petrova@mail.com,555624078,Tallinn,,Jeans,pending,101.95,NaT
+692,Anna Ivanova,anna.ivanova@gmail.com,78565270204,Berlin,2025-06-11,Boots,cancelled,177.97,2025-06
+693,Alex Brown,alex.brown@example.com,555660453,Riga,,Jeans,paid,65.95,NaT
+694,Maria Petrova,maria.petrova@gmail.com,3725553910,Tallinn,,Jeans,paid,150.8,NaT
+695,Alex Brown,alex.brown@mail.com,555173378,Tallinn,,Boots,paid,149.66,NaT
+696,John Smith,john.smith @gmail.com,3725559789,Riga,,Coat,pending,104.52,NaT
+697,Alex Brown,alex.brown@example.com,3725555512,Berlin,2025-04-13,T-shirt,cancelled,136.31,2025-04
+698,Maxim Orlov,maxim.orlov@example.com,74686250332,Saint Petersburg,,Boots,paid,57.44,NaT
+699,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555747743,Berlin,2025-04-09,Dress,cancelled,166.2,2025-04
+700,Anna Ivanova,,76604532467,Saint Petersburg,2025-01-18,Jacket,cancelled,110.75,2025-01
+701,John Smith,john.smith@mail.com,555892091,Saint Petersburg,,Sneakers,cancelled,93.86,NaT
+702,Anna Ivanova,anna.ivanova@gmail.com,3725558567,Moscow,,T-shirt,cancelled,172.45,NaT
+703,Maxim Orlov,maxim.orlov@example.com,555186558,Moscow,,Coat,paid,84.78,NaT
+704,John Smith,john.smith @gmail.com,3725555819,Moscow,,Jacket,pending,49.58,NaT
+705,Maria Petrova,maria.petrova @gmail.com,555807835,Berlin,,Dress,cancelled,42.17,NaT
+706,Olga Sokolova,olga.sokolova@example.com,555727263,Saint Petersburg,,Bag,paid,150.3,NaT
+707,Anna Ivanova,anna.ivanova@example.com,79415220367,Moscow,,Coat,paid,55.98,NaT
+708,Anna Ivanova,anna.ivanova@example.com,555212914,Saint Petersburg,2025-05-24,Boots,cancelled,207.74,2025-05
+709,John Smith,john.smith @gmail.com,3725554502,Moscow,,Boots,paid,15.9,NaT
+710,Maxim Orlov,maxim.orlov @gmail.com,77795730263,Saint Petersburg,,Boots,pending,204.82,NaT
+711,Maxim Orlov,maxim.orlov@gmail.com,3725559784,Tallinn,,Coat,pending,130.55,NaT
+712,Maria Petrova,maria.petrova@mail.com,71439265956,Saint Petersburg,,Sneakers,paid,115.16,NaT
+713,Anna Ivanova,anna.ivanova@gmail.com,3725556060,Tallinn,,Jacket,pending,92.75,NaT
+714,Alex Brown,alex.brown @gmail.com,3725557156,Tallinn,,Coat,pending,139.96,NaT
+715,Kate Miller,kate.miller@gmail.com,78493587758,Tallinn,,T-shirt,paid,118.12,NaT
+716,Alex Brown,alex.brown@gmail.com,73090238502,Riga,2025-04-08,Sneakers,paid,175.17,2025-04
+717,Maxim Orlov,maxim.orlov@gmail.com,3725554153,Saint Petersburg,2025-02-14,Bag,cancelled,125.71,2025-02
+718,John Smith,john.smith@example.com,3725558652,Saint Petersburg,,Jeans,pending,127.52,NaT
+719,Maxim Orlov,maxim.orlov @gmail.com,555919240,Riga,,Boots,cancelled,101.82,NaT
+720,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555120773,Moscow,,Coat,pending,117.15,NaT
+721,Ivan Kuznetsov,ivan.kuznetsov@example.com,75511412632,Moscow,,Jacket,paid,135.39,NaT
+722,Maria Petrova,maria.petrova @gmail.com,555113457,Tallinn,,Boots,cancelled,34.49,NaT
+723,Olga Sokolova,olga.sokolova@gmail.com,74829594122,Saint Petersburg,,T-shirt,cancelled,52.59,NaT
+724,Maxim Orlov,maxim.orlov@mail.com,555782524,Moscow,,Coat,pending,157.16,NaT
+725,Maxim Orlov,maxim.orlov @gmail.com,3725555166,Tallinn,,Boots,paid,128.54,NaT
+726,Alex Brown,alex.brown@example.com,76128366328,Tallinn,2025-03-19,Jeans,cancelled,110.8,2025-03
+727,John Smith,john.smith@gmail.com,74907917027,Saint Petersburg,2025-02-23,Sneakers,paid,120.92,2025-02
+728,Maxim Orlov,maxim.orlov@gmail.com,555173234,Moscow,,Bag,cancelled,137.38,NaT
+729,Maria Petrova,maria.petrova@gmail.com,3725558383,Saint Petersburg,,Jeans,cancelled,93.01,NaT
+730,Maxim Orlov,maxim.orlov@gmail.com,555183686,Moscow,,Bag,cancelled,81.08,NaT
+731,Maxim Orlov,maxim.orlov@gmail.com,74102611752,Berlin,,Sneakers,cancelled,129.79,NaT
+732,Olga Sokolova,olga.sokolova@example.com,555893679,Saint Petersburg,,T-shirt,cancelled,71.08,NaT
+733,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,3725556833,Moscow,2025-04-27,Sneakers,paid,140.41,2025-04
+734,Olga Sokolova,olga.sokolova @gmail.com,70807174408,Moscow,,T-shirt,cancelled,34.87,NaT
+735,Alex Brown,alex.brown@example.com,555875112,Moscow,2025-05-02,Boots,pending,171.46,2025-05
+736,Alex Brown,alex.brown @gmail.com,555699672,Berlin,,Jacket,paid,143.63,NaT
+737,Maxim Orlov,maxim.orlov@gmail.com,3725558899,Moscow,,Dress,cancelled,132.8,NaT
+738,Anna Ivanova,anna.ivanova @gmail.com,3725556349,Moscow,2025-03-07,Coat,cancelled,169.13,2025-03
+739,Maxim Orlov,maxim.orlov@gmail.com,72579898495,Tallinn,,Boots,paid,203.27,NaT
+740,Alex Brown,alex.brown@mail.com,3725552895,Saint Petersburg,2025-03-29,Dress,pending,170.72,2025-03
+741,Maria Petrova,maria.petrova@mail.com,555704941,Tallinn,2025-01-16,Boots,pending,27.96,2025-01
+742,Kate Miller,,555795984,Tallinn,2025-01-03,Coat,pending,56.02,2025-01
+743,Alex Brown,alex.brown@example.com,3725558467,Tallinn,2025-06-20,Jeans,cancelled,88.76,2025-06
+744,John Smith,john.smith@mail.com,555761732,Moscow,2025-03-16,T-shirt,paid,121.3,2025-03
+745,Alex Brown,alex.brown @gmail.com,75977769260,Tallinn,,Boots,cancelled,145.88,NaT
+746,Kate Miller,kate.miller@example.com,75510614294,Tallinn,2025-02-19,Dress,paid,83.71,2025-02
+747,Kate Miller,kate.miller@gmail.com,72811631556,Saint Petersburg,,Coat,paid,129.34,NaT
+748,Alex Brown,alex.brown @gmail.com,72472535778,Tallinn,,Coat,paid,82.23,NaT
+749,John Smith,john.smith@mail.com,3725558763,Tallinn,2025-05-12,Coat,cancelled,89.42,2025-05
+750,Alex Brown,alex.brown@gmail.com,555352555,Tallinn,2025-06-26,Dress,cancelled,49.67,2025-06
+751,Ivan Kuznetsov,ivan.kuznetsov@mail.com,3725558292,Berlin,,Bag,paid,73.84,NaT
+752,Maxim Orlov,maxim.orlov@mail.com,555932929,Saint Petersburg,2025-05-04,Coat,paid,52.42,2025-05
+753,Kate Miller,kate.miller@gmail.com,555293871,Berlin,2025-05-23,Jacket,paid,71.21,2025-05
+754,John Smith,john.smith @gmail.com,3725552922,Moscow,,Sneakers,paid,172.68,NaT
+755,Alex Brown,alex.brown @gmail.com,3725552438,Berlin,2025-02-01,Coat,cancelled,72.53,2025-02
+756,Anna Ivanova,anna.ivanova @gmail.com,77657075548,Riga,,T-shirt,cancelled,251.62,NaT
+757,Kate Miller,kate.miller @gmail.com,3725552622,Saint Petersburg,,Coat,cancelled,144.67,NaT
+758,Alex Brown,alex.brown@mail.com,71812540682,Moscow,,Boots,cancelled,129.24,NaT
+759,John Smith,john.smith@mail.com,3725557968,Saint Petersburg,2025-01-19,T-shirt,cancelled,77.08,2025-01
+760,Maria Petrova,maria.petrova@example.com,3725553514,Moscow,,Dress,cancelled,155.02,NaT
+761,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555771274,Saint Petersburg,,Jeans,paid,91.22,NaT
+762,John Smith,john.smith@example.com,3725554640,Saint Petersburg,2025-02-14,Jacket,paid,126.1,2025-02
+763,Kate Miller,kate.miller@mail.com,555736975,Berlin,,Boots,cancelled,248.0,NaT
+764,Maria Petrova,maria.petrova@mail.com,3725551155,Saint Petersburg,,Sneakers,pending,115.2,NaT
+765,Alex Brown,alex.brown@example.com,555291999,Saint Petersburg,2025-05-14,Jeans,paid,177.46,2025-05
+766,Olga Sokolova,olga.sokolova@example.com,3725556123,Moscow,2025-01-20,Coat,paid,84.84,2025-01
+767,John Smith,john.smith@mail.com,555947613,Moscow,2025-06-23,Jacket,cancelled,118.25,2025-06
+768,John Smith,john.smith@example.com,555746223,Saint Petersburg,2025-06-29,Sneakers,cancelled,208.54,2025-06
+769,Maria Petrova,maria.petrova @gmail.com,555178771,Moscow,,T-shirt,paid,88.65,NaT
+770,Kate Miller,kate.miller @gmail.com,555992104,Moscow,,Boots,paid,210.62,NaT
+771,Olga Sokolova,olga.sokolova@gmail.com,3725558586,Unknown,,Jeans,pending,155.39,NaT
+772,John Smith,john.smith@gmail.com,555857526,Saint Petersburg,,Dress,cancelled,91.88,NaT
+773,Maria Petrova,maria.petrova@example.com,70029680169,Tallinn,,Jeans,pending,151.62,NaT
+774,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,555950965,Tallinn,,Boots,paid,168.63,NaT
+775,Kate Miller,kate.miller @gmail.com,3725552813,Moscow,,Coat,paid,151.09,NaT
+776,Maxim Orlov,maxim.orlov@mail.com,555541550,Tallinn,2025-05-09,Coat,paid,41.49,2025-05
+777,John Smith,john.smith@gmail.com,3725553066,Berlin,,Sneakers,cancelled,83.64,NaT
+778,Maxim Orlov,maxim.orlov@mail.com,71842334552,Saint Petersburg,2025-02-09,Jeans,paid,107.62,2025-02
+779,Olga Sokolova,olga.sokolova @gmail.com,79032594933,Berlin,2025-05-09,Coat,paid,116.28,2025-05
+780,John Smith,john.smith @gmail.com,3725557574,Moscow,,Boots,cancelled,151.03,NaT
+781,Olga Sokolova,olga.sokolova @gmail.com,3725554633,Saint Petersburg,,Dress,pending,128.89,NaT
+782,Kate Miller,kate.miller@mail.com,555846151,Moscow,,T-shirt,paid,53.23,NaT
+783,Olga Sokolova,olga.sokolova@example.com,3725555590,Saint Petersburg,,Dress,paid,139.01,NaT
+784,Anna Ivanova,anna.ivanova @gmail.com,71595976710,Moscow,,Dress,paid,150.53,NaT
+785,John Smith,john.smith@gmail.com,3725554120,Saint Petersburg,2025-01-20,Jacket,paid,147.99,2025-01
+786,Maria Petrova,maria.petrova@gmail.com,77351279458,Moscow,,Boots,paid,174.04,NaT
+787,Maxim Orlov,,3725559581,Moscow,,Jeans,paid,161.7,NaT
+788,Anna Ivanova,anna.ivanova @gmail.com,3725557512,Tallinn,2025-04-23,Boots,pending,142.96,2025-04
+789,Alex Brown,alex.brown @gmail.com,72456283110,Berlin,,Jacket,cancelled,116.49,NaT
+790,Olga Sokolova,olga.sokolova@mail.com,77336898091,Berlin,,Bag,pending,36.95,NaT
+791,Anna Ivanova,anna.ivanova @gmail.com,73395692712,Moscow,,T-shirt,pending,141.48,NaT
+792,Kate Miller,kate.miller@gmail.com,555376864,Moscow,,Sneakers,pending,130.38,NaT
+793,Alex Brown,alex.brown@mail.com,74173010454,Unknown,2025-06-18,Jeans,cancelled,133.58,2025-06
+794,Alex Brown,alex.brown@example.com,71154459322,Saint Petersburg,,Boots,pending,56.16,NaT
+795,Maria Petrova,maria.petrova@example.com,3725552535,Moscow,,Jeans,paid,65.95,NaT
+796,Olga Sokolova,olga.sokolova @gmail.com,3725553911,Riga,,Boots,paid,172.66,NaT
+797,Maria Petrova,maria.petrova@gmail.com,3725552633,Moscow,2025-01-04,Bag,paid,118.02,2025-01
+798,Olga Sokolova,olga.sokolova @gmail.com,3725551221,Moscow,2025-05-19,Bag,paid,154.08,2025-05
+799,Maxim Orlov,maxim.orlov@example.com,3725553672,Saint Petersburg,,Dress,paid,121.42,NaT
+800,Anna Ivanova,anna.ivanova@gmail.com,555411152,Unknown,,Bag,cancelled,121.49,NaT
+801,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,71231995081,Moscow,2025-04-09,Jacket,paid,166.91,2025-04
+802,John Smith,john.smith @gmail.com,71534625773,Moscow,,Sneakers,paid,94.2,NaT
+803,Maria Petrova,maria.petrova@example.com,72575311720,Saint Petersburg,,Jeans,pending,124.81,NaT
+804,John Smith,john.smith@mail.com,3725559179,Moscow,2025-02-08,Boots,cancelled,96.89,2025-02
+805,Maxim Orlov,maxim.orlov@gmail.com,3725552854,Moscow,,Boots,pending,98.28,NaT
+806,Kate Miller,kate.miller@example.com,71432221894,Riga,,Jacket,cancelled,104.54,NaT
+807,Alex Brown,alex.brown@example.com,77365529848,Unknown,2025-05-28,Dress,paid,131.11,2025-05
+808,Kate Miller,kate.miller@gmail.com,74368645970,Moscow,,T-shirt,pending,96.06,NaT
+809,Maria Petrova,maria.petrova@mail.com,3725558543,Moscow,,Coat,cancelled,182.79,NaT
+810,Anna Ivanova,anna.ivanova@example.com,73012497650,Berlin,,Coat,paid,75.27,NaT
+811,Maria Petrova,maria.petrova@mail.com,3725553314,Moscow,,Jacket,paid,110.66,NaT
+812,Olga Sokolova,olga.sokolova@example.com,75743818629,Moscow,,Sneakers,paid,98.01,NaT
+813,Maria Petrova,maria.petrova @gmail.com,77871301064,Saint Petersburg,2025-04-27,Jeans,paid,192.35,2025-04
+814,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,3725555453,Saint Petersburg,,Boots,paid,129.83,NaT
+815,John Smith,john.smith@example.com,3725558821,Saint Petersburg,2025-04-06,Dress,paid,171.59,2025-04
+816,John Smith,john.smith@mail.com,3725556496,Berlin,,Sneakers,pending,45.72,NaT
+817,Alex Brown,alex.brown @gmail.com,71156067809,Riga,,Sneakers,paid,133.35,NaT
+818,Kate Miller,kate.miller@gmail.com,555108890,Tallinn,2025-04-12,T-shirt,paid,164.48,2025-04
+819,John Smith,john.smith@mail.com,72162852783,Tallinn,,Jacket,paid,124.11,NaT
+820,Olga Sokolova,olga.sokolova @gmail.com,71989026093,Saint Petersburg,2025-01-24,Coat,paid,173.27,2025-01
+821,Kate Miller,kate.miller@example.com,75544122414,Tallinn,,Bag,paid,94.14,NaT
+822,John Smith,john.smith @gmail.com,3725559151,Moscow,2025-03-21,Jacket,paid,190.47,2025-03
+823,Maxim Orlov,maxim.orlov@mail.com,555409967,Moscow,,Coat,cancelled,234.94,NaT
+824,Olga Sokolova,olga.sokolova@example.com,78060184184,Riga,,Sneakers,pending,101.86,NaT
+825,Olga Sokolova,olga.sokolova@example.com,555998630,Tallinn,2025-04-04,T-shirt,paid,97.72,2025-04
+826,Ivan Kuznetsov,ivan.kuznetsov@example.com,78773224781,Berlin,2025-01-15,Sneakers,paid,192.67,2025-01
+827,John Smith,john.smith@mail.com,3725557157,Moscow,,T-shirt,cancelled,198.98,NaT
+828,Maxim Orlov,maxim.orlov@example.com,3725552787,Tallinn,,Dress,pending,93.86,NaT
+829,Kate Miller,kate.miller@example.com,3725554483,Moscow,,Jacket,paid,98.99,NaT
+830,Alex Brown,alex.brown@mail.com,3725551513,Saint Petersburg,,Sneakers,paid,105.91,NaT
+831,Anna Ivanova,anna.ivanova@example.com,3725555421,Moscow,,Jeans,cancelled,52.78,NaT
+832,Ivan Kuznetsov,ivan.kuznetsov @gmail.com,3725555250,Saint Petersburg,,Coat,paid,74.07,NaT
+833,Kate Miller,kate.miller@example.com,73366641864,Berlin,,Boots,paid,69.79,NaT
+834,Alex Brown,alex.brown@gmail.com,3725553369,Riga,,T-shirt,paid,81.61,NaT
+835,Ivan Kuznetsov,ivan.kuznetsov@mail.com,555857371,Saint Petersburg,2025-06-13,Bag,cancelled,118.27,2025-06
+836,Maria Petrova,maria.petrova@example.com,555464994,Saint Petersburg,,Dress,cancelled,131.71,NaT
+837,Maxim Orlov,maxim.orlov@example.com,76624845382,Riga,,Boots,pending,197.53,NaT
+838,Maria Petrova,maria.petrova @gmail.com,75933769301,Saint Petersburg,2025-06-26,Dress,paid,70.08,2025-06
+839,John Smith,john.smith@gmail.com,3725551269,Berlin,2025-05-08,Dress,cancelled,169.22,2025-05
+840,Anna Ivanova,anna.ivanova@mail.com,3725557891,Riga,,Boots,cancelled,109.3,NaT
+841,Anna Ivanova,anna.ivanova@mail.com,75513039012,Tallinn,,Bag,paid,117.53,NaT
+842,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555127521,Saint Petersburg,2025-02-13,Boots,paid,153.74,2025-02
+843,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,555235130,Saint Petersburg,2025-03-23,Dress,paid,63.86,2025-03
+844,John Smith,john.smith@example.com,555978012,Tallinn,,Sneakers,paid,139.12,NaT
+845,Anna Ivanova,anna.ivanova@gmail.com,3725557265,Berlin,,Bag,cancelled,128.32,NaT
+846,Olga Sokolova,olga.sokolova@gmail.com,74015690897,Moscow,2025-01-06,Dress,cancelled,144.62,2025-01
+847,John Smith,john.smith@gmail.com,3725553323,Saint Petersburg,,Boots,paid,134.46,NaT
+848,Maxim Orlov,maxim.orlov@gmail.com,3725557778,Tallinn,,Jacket,paid,242.77,NaT
+849,Maria Petrova,,3725551166,Berlin,,Sneakers,paid,88.11,NaT
+850,Olga Sokolova,olga.sokolova@gmail.com,3725554159,Saint Petersburg,2025-05-13,T-shirt,paid,93.45,2025-05
+851,Alex Brown,alex.brown@gmail.com,70943866804,Riga,,Bag,paid,88.84,NaT
+852,Kate Miller,kate.miller@mail.com,555881393,Saint Petersburg,,Coat,paid,92.23,NaT
+853,Olga Sokolova,olga.sokolova@example.com,3725552685,Riga,2025-02-22,Boots,pending,88.13,2025-02
+854,Kate Miller,kate.miller@gmail.com,555550167,Riga,2025-04-06,Coat,paid,179.45,2025-04
+855,Olga Sokolova,olga.sokolova@example.com,3725555808,Tallinn,,Coat,pending,191.03,NaT
+856,Alex Brown,alex.brown@gmail.com,3725554525,Moscow,,T-shirt,paid,91.46,NaT
+857,Maxim Orlov,maxim.orlov@mail.com,555688922,Moscow,,Jeans,paid,78.38,NaT
+858,Ivan Kuznetsov,ivan.kuznetsov@example.com,3725556206,Saint Petersburg,,Boots,paid,143.57,NaT
+859,John Smith,john.smith@example.com,555730645,Moscow,2025-03-02,Sneakers,cancelled,92.39,2025-03
+860,Olga Sokolova,olga.sokolova @gmail.com,74462987469,Tallinn,,Jeans,pending,151.65,NaT
+861,Kate Miller,kate.miller@mail.com,75640042225,Riga,,Jacket,paid,130.15,NaT
+862,Kate Miller,,3725551479,Saint Petersburg,2025-03-24,Coat,paid,44.21,2025-03
+863,Alex Brown,alex.brown@mail.com,555105181,Saint Petersburg,,Dress,pending,197.38,NaT
+864,Kate Miller,kate.miller@example.com,555832603,Moscow,,Boots,cancelled,209.79,NaT
+865,John Smith,john.smith @gmail.com,75499884316,Saint Petersburg,,Dress,pending,89.36,NaT
+866,Alex Brown,alex.brown @gmail.com,3725552278,Riga,,Boots,paid,100.61,NaT
+867,Maxim Orlov,maxim.orlov@gmail.com,78351054360,Berlin,2025-04-27,Dress,paid,134.29,2025-04
+868,Alex Brown,alex.brown@mail.com,555574409,Moscow,,Jeans,paid,136.72,NaT
+869,Maria Petrova,maria.petrova@example.com,3725552755,Riga,,Jacket,pending,152.93,NaT
+870,Olga Sokolova,olga.sokolova@gmail.com,3725552377,Tallinn,2025-04-12,Sneakers,cancelled,220.51,2025-04
+871,Olga Sokolova,,77080776489,Tallinn,,Coat,pending,111.15,NaT
+872,Maxim Orlov,maxim.orlov@example.com,3725552788,Moscow,,Jeans,paid,80.09,NaT
+873,John Smith,john.smith@gmail.com,555337465,Saint Petersburg,,Jacket,paid,51.03,NaT
+874,Maria Petrova,maria.petrova @gmail.com,79826853156,Moscow,2025-03-15,Jacket,pending,83.45,2025-03
+875,Alex Brown,alex.brown @gmail.com,3725556162,Moscow,,Jacket,cancelled,118.34,NaT
+876,Kate Miller,kate.miller@gmail.com,3725553908,Riga,,Sneakers,cancelled,209.73,NaT
+877,Alex Brown,alex.brown@example.com,73517262299,Berlin,,Coat,paid,94.12,NaT
+878,John Smith,john.smith@gmail.com,555942942,Berlin,2025-05-06,Jeans,cancelled,131.19,2025-05
+879,Olga Sokolova,olga.sokolova@mail.com,555114219,Berlin,2025-03-27,Jacket,paid,119.18,2025-03
+880,Olga Sokolova,,73677632443,Saint Petersburg,,Boots,pending,179.42,NaT
+881,Alex Brown,alex.brown@gmail.com,555496129,Riga,2025-06-10,Coat,pending,246.35,2025-06
+882,Kate Miller,kate.miller@mail.com,555717766,Tallinn,,Dress,cancelled,93.46,NaT
+883,Maxim Orlov,maxim.orlov@mail.com,555215543,Moscow,,Jeans,cancelled,95.53,NaT
+884,Maria Petrova,maria.petrova@mail.com,555402262,Berlin,,Dress,paid,172.21,NaT
+885,Maxim Orlov,maxim.orlov@mail.com,3725551083,Saint Petersburg,,Coat,paid,154.09,NaT
+886,Olga Sokolova,olga.sokolova @gmail.com,3725554223,Saint Petersburg,,Boots,cancelled,212.34,NaT
+887,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,3725555280,Tallinn,,Coat,paid,149.2,NaT
+888,Olga Sokolova,olga.sokolova @gmail.com,555681208,Riga,,Coat,cancelled,102.04,NaT
+889,Ivan Kuznetsov,ivan.kuznetsov@gmail.com,79935378017,Riga,,Boots,cancelled,149.53,NaT
+890,Maxim Orlov,maxim.orlov@gmail.com,3725551432,Berlin,,T-shirt,paid,175.44,NaT
+891,Olga Sokolova,olga.sokolova@gmail.com,74320534569,Saint Petersburg,,Dress,pending,161.02,NaT
+892,John Smith,john.smith@mail.com,70261412194,Moscow,2025-05-30,Bag,cancelled,145.36,2025-05
+893,Maria Petrova,,74959722992,Moscow,2025-03-21,Jacket,paid,173.33,2025-03
+894,John Smith,john.smith@gmail.com,3725551000,Moscow,,Jacket,cancelled,178.46,NaT
+895,Anna Ivanova,anna.ivanova@gmail.com,3725555913,Saint Petersburg,,Coat,cancelled,189.11,NaT
+896,Alex Brown,alex.brown@example.com,3725558871,Saint Petersburg,,Boots,cancelled,152.44,NaT
+897,John Smith,john.smith@example.com,3725557830,Tallinn,,Sneakers,pending,111.64,NaT
+898,Anna Ivanova,anna.ivanova@example.com,555471958,Moscow,,T-shirt,cancelled,127.34,NaT
+899,Alex Brown,alex.brown@mail.com,3725559602,Berlin,,T-shirt,cancelled,180.33,NaT
+900,Maria Petrova,maria.petrova@mail.com,555513064,Berlin,2025-06-05,Jeans,paid,79.15,2025-06
