@@ -32,4 +32,14 @@
     - Automated cleaning of a messy customer-order dataset using Python/pandas: standardized dates, emails, phones, statuses and revenue fields.
 - Removed duplicates and generated a reusable data-quality report with clean CSV export and revenue visualization.
 
+  ## Freelance use cases
+
+I can adapt this project for:
+
+- cleaning client CSV/Excel files;
+- building automated data-quality reports;
+- creating Google Sheets / Excel dashboards;
+- building trading journal dashboards;
+- analyzing PnL, win rate, drawdown and strategy performance.
+
 ![Revenue after cleaning](results/revenue_after_cleaning.png)
