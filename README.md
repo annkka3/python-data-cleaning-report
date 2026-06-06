@@ -31,3 +31,5 @@
 
     - Automated cleaning of a messy customer-order dataset using Python/pandas: standardized dates, emails, phones, statuses and revenue fields.
 - Removed duplicates and generated a reusable data-quality report with clean CSV export and revenue visualization.
+
+![Revenue after cleaning](results/revenue_after_cleaning.png)
